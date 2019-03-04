@@ -1,0 +1,3527 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta
+			content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, target-densitydpi=medium-dpi"
+			name="viewport">
+	<meta content="telephone=no, address=no, email=no" name="format-detection">
+	<meta content="" name="Description">
+	<meta content="" property="og:title">
+	<meta content="website" property="og:type">
+	<meta content="" property="og:url">
+	<meta content="" property="og:image">
+	<meta content="" property="og:site_name">
+	<meta content="" property="og:description">
+	<link href="" rel="icon" type="image/x-icon">
+	<link href="" rel="apple-touch-icon-precomposed">
+
+	<title>SKT RCS</title>
+	<link href="./resource/css/rcs.ui.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrap">
+	<div>
+		<!-- 메세지 리스트 -->
+		<div class="msg-list" style="display:block;">
+			<header class="header">
+				<div class="inner">
+					<h1 class="tit">메시지</h1>
+					<ul class="util">
+						<li>
+							<button type="button" class="util__srch">search</button>
+						</li>
+						<li>
+							<button type="button" class="util__write">write</button>
+						</li>
+						<li>
+							<button type="button" class="util__opt">option</button>
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			<div class="container">
+				<section class="content">
+					<div class="lists">
+						<div class="picks">
+							<div class="picks__scroll "><!-- is-scrolled -->
+								<div class="picks__default" style="">
+									중요 메시지를 <strong>PICK!</strong> 하세요.<br>
+									똑똑한 마이픽이 놓치지 않도록 알려드립니다.
+									<button type="button" class="picks__close">close</button>
+								</div>
+								<ul class="picks__flex">
+
+									<!--<li class="picks__item picks__solo" style="display:none;">-->
+									<!--<strong class="brand">Starbucks</strong>-->
+									<!--<div class="txt">바로 쓸 수 있는 포인트 선물이 도착했습니다. 도산가로수길점</div>-->
+									<!--</li>-->
+
+									<!--<li class="picks__item">-->
+									<!--<strong class="brand">마켓컬리</strong>-->
+									<!--<div class="txt">마켓컬리 빵·잼  50% 할인 고객 마켓컬리 빵·잼  50% 할인 고객</div>-->
+									<!--</li>-->
+									<!--<li class="picks__item">-->
+									<!--<strong class="brand">Starbucks</strong>-->
+									<!--<div class="txt">바로 쓸 수 있는 포인트 선물이 도착했습니다. 도산가로수길점</div>-->
+									<!--</li>-->
+									<!--<li class="picks__item picks__more">-->
+									<!--<a href="javascript:;" class="mypick_all">마이픽 전체보기</a>-->
+									<!--</li>-->
+								</ul>
+							</div>
+						</div>
+						<ul>
+							<li class="lists__item"><!-- is-expand -->
+								<div class="lists__inner">
+									<a href="javascript:;" class="lists__link link-chart1">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb1.png" alt=""></span>
+										<div class="lists__tits noti">
+											<strong class="name">김지원</strong> <em class="ico pin">pin</em><em class="ico no-alram"></em>
+										</div>
+										<div class="lists__summery">
+											<em class="ico pic">picture</em>오늘 우리 놀러가서 찍은 사진이야
+											이따 만나서 더 보내줄께
+											날씨가 좋아서 사진이 다 잘나와서
+											너무 기분이 좋다 :p
+											이따 보아~
+										</div>
+										<div class="lists__in-content" style="display:none;">
+											<div class="msgs">
+												<div class="msgs__txts">
+													오늘 우리 놀러가서 찍은 사진이야<br>
+													이따 만나서 더 보내줄께<br>
+													날씨가 좋아서 사진이 다 잘나와서<br>
+													너무 기분이 좋다 :P<br>
+													이따 보아~
+												</div>
+												<div class="msgs__imgs">
+													<img src="./resource/imgs/img_msg1.png" alt="">
+												</div>
+												<button type="button" class="msgs__more">미확인 메시지 <strong>2개</strong> 더보기</button>
+											</div>
+										</div>
+										<div class="lists__date">오후 17:51</div>
+										<span class="lists__number">3</span>
+									</a>
+									<button type="button" class="lists__mypick" style="display:none;bottom:45px;">
+										<canvas
+												style="display:none;width:130px;height:130px;margin:-66px 0px 0px -64px;position:absolute;top:50%;left:50%;"></canvas>
+									</button>
+								</div>
+								<button type="button" class="lists__expand">expand</button>
+							</li>
+							<li class="lists__item"><!-- is-expand -->
+								<div class="lists__inner">
+									<a href="javascript:;" class="lists__link link-chart2">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb2.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">Starbucks</strong>
+										</div>
+										<div class="lists__summery">
+											바로 쓸 수 있는 포인트 선물이 도착했습니다. 도산가로수길점
+										</div>
+										<div class="lists__in-content" style="display:none;">
+											<div class="msgs type2">
+												<div class="msgs__txts">
+													바로 쓸 수 있는 포인트 선물이<br>도착했습니다
+												</div>
+												<div class="msgs__mixed">
+													<img src="./resource/imgs/img_msg2.png" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="lists__date">오후 13:00</div>
+										<span class="lists__number">1</span>
+									</a>
+									<button type="button" class="lists__mypick" style="display:none;">
+										<canvas
+												style="display:none;width:130px;height:130px;margin:-66px 0px 0px -64px;position:absolute;top:50%;left:50%;"></canvas>
+									</button>
+								</div>
+								<button type="button" class="lists__expand">expand</button>
+							</li>
+							<li class="lists__item"><!-- is-expand -->
+								<div class="lists__inner">
+									<a href="javascript:;" class="lists__link link-chart3">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb3.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">마켓컬리 </strong>
+										</div>
+										<div class="lists__summery">
+											(광고) 마켓컬리 빵·잼 50% 할인 고객 마켓컬리 빵·잼 50% 할인 고객
+										</div>
+										<div class="lists__in-content" style="display:none;">
+											<div class="msgs type3">
+												<div class="msgs__mixed">
+													<img src="./resource/imgs/img_msg3.png" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="lists__date">오후 13:00</div>
+										<span class="lists__number">1</span>
+									</a>
+									<button type="button" class="lists__mypick" style="display:none;">
+										<canvas
+												style="display:none;width:130px;height:130px;margin:-66px 0px 0px -64px;position:absolute;top:50%;left:50%;"></canvas>
+									</button>
+								</div>
+								<button type="button" class="lists__expand">expand</button>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="javascript:;" class="lists__link">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb4.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">이수현</strong>
+										</div>
+										<div class="lists__summery">
+											오늘 예방접종 잊지마!
+										</div>
+										<div class="lists__date">오후 13:00</div>
+									</a>
+								</div>
+							</li>
+							<li class="lists__item lists__item2"><!-- is-expand -->
+								<div class="lists__inner">
+									<a href="javascript:;" class="lists__link link-chart4">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb5.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">신한카드</strong>
+										</div>
+										<div class="lists__summery">
+											(광고) 신한카드 2월 문화혜택 안내
+										</div>
+										<div class="lists__in-content" style="display:none;">
+											<div class="msgs type4">
+												<div class="msgs__txts">
+													(광고)신한카드 2월의 문화혜택 안내
+												</div>
+												<div class="msgs__scroll">
+													<ul>
+														<li><img src="./resource/imgs/img_msg4.png" alt=""></li>
+														<li><img src="./resource/imgs/img_msg5.png" alt=""></li>
+														<li><img src="./resource/imgs/img_msg6.png" alt=""></li>
+														<li><img src="./resource/imgs/img_msg8.png" alt=""></li>
+														<li><img src="./resource/imgs/img_msg9.png" alt=""></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="lists__date">어제</div>
+										<span class="lists__number">1</span>
+									</a>
+									<button type="button" class="lists__mypick" style="display:none;">
+										<canvas
+												style="display:none;width:130px;height:130px;margin:-66px 0px 0px -64px;position:absolute;top:50%;left:50%;"></canvas>
+									</button>
+								</div>
+								<button type="button" class="lists__expand">expand</button>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="javascript:;" class="lists__link link-chart5">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb10.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">KB국민카드</strong>
+										</div>
+										<div class="lists__summery">
+											고객님의 취향과 소비 패턴에 딱 맞는 카드를 추...
+										</div>
+										<div class="lists__in-content" style="display:none;">
+											<div class="msgs type4">
+												<div class="msgs__txts">
+													고개님의 취향과 소비 패턴에 딱 맞는
+													카드를 추천해 드리기 위해 간단하게
+													몇 가지만 질문 드리겠습니다.
+												</div>
+											</div>
+										</div>
+										<div class="lists__date">오후 13:00</div>
+										<span class="lists__number">1</span>
+									</a>
+									<button type="button" class="lists__mypick" style="display:none;">
+										<canvas
+												style="display:none;width:130px;height:130px;margin:-66px 0px 0px -64px;position:absolute;top:50%;left:50%;"></canvas>
+									</button>
+								</div>
+								<button type="button" class="lists__expand">expand</button>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="javascript:;" class="lists__link link-chart6">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb6.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">절친모임</strong> <em class="ico people">5</em>
+										</div>
+										<div class="lists__summery">
+											우리 다음주 모임에 대해서 투표하려고 하는데...
+										</div>
+										<div class="lists__date">화요일</div>
+									</a>
+								</div>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="" class="lists__link">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb7.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">1588-0000</strong> <em class="ico spam">스팸의심</em>
+										</div>
+										<div class="lists__summery">
+											(광고)장기카드대출 혜택 안내
+										</div>
+										<div class="lists__date">오후 13:00</div>
+									</a>
+								</div>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="" class="lists__link">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb8.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">010-1234-5678</strong>
+										</div>
+										<div class="lists__summery">
+											CJ대한통운입니다. 상품을 경비실에 보관하였습...
+										</div>
+										<div class="lists__date">월요일</div>
+									</a>
+								</div>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="" class="lists__link">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb9.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">김나영, 김은영, 이민우, 소지섭...</strong> <em class="ico no-read">9</em>
+										</div>
+										<div class="lists__summery">
+											금주 진행될 과제에 대해서 논의 하려고 합니다
+										</div>
+										<div class="lists__date">11월 11일</div>
+									</a>
+								</div>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="" class="lists__link">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb11.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">재난문자</strong>
+										</div>
+										<div class="lists__summery">
+											[환경부] 수도권 내일 미세먼지 비상저감조치
+										</div>
+										<div class="lists__date">11월 11일</div>
+									</a>
+								</div>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="" class="lists__link">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb12.png" alt=""></span>
+										<div class="lists__tits noti">
+											<strong class="name">Jane</strong>
+										</div>
+										<div class="lists__summery">
+											크리스마스네.. 그동안 잘 지냈어?
+										</div>
+										<div class="lists__date">오후 13:00 <em class="ico temp">임시저장</em></div>
+									</a>
+								</div>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="" class="lists__link">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb13.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">임현주, 김무영, 유진강</strong> <em class="ico people">4</em>
+										</div>
+										<div class="lists__summery">
+											이번 제출 과제의 주제는 언제 올려 주시나요?
+										</div>
+										<div class="lists__date">화요일</div>
+									</a>
+								</div>
+							</li>
+							<li class="lists__item">
+								<div class="lists__inner">
+									<a href="" class="lists__link">
+										<span class="lists__thumb"><img src="./resource/imgs/img_thumb14.png" alt=""></span>
+										<div class="lists__tits ">
+											<strong class="name">Flo</strong>
+										</div>
+										<div class="lists__summery">
+											<em class="ico rhythm">rhythm</em>당신 참 좋은 사람이에요 by 노르웨이...
+										</div>
+										<div class="lists__date">오후 03:00</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- //메세지 리스트 -->
+
+		<!-- 친구리스트 -->
+		<div class="friend-list" style="display:none;">
+			<header class="header">
+				<div class="inner">
+					<h1 class="tit">친구</h1>
+					<ul class="util">
+						<li>
+							<button type="button" class="util__srch">search</button>
+						</li>
+						<li>
+							<button type="button" class="util__people-add">add</button>
+						</li>
+						<li>
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			<div class="container">
+				<section class="content">
+					<div class="lists">
+						<div class="me">
+							<div class="row-tit"><strong>나</strong></div>
+							<a href="javascript:;" class="me-click">
+								<span class="thumb"><img src="./resource/imgs/img_thumb30.png" alt=""></span>
+								<div class="infos">
+									<span class="name">백승아</span>
+									<span class="summery">첫눈이다~</span>
+								</div>
+							</a>
+						</div>
+						<div class="bookmark">
+							<div class="row-tit"><strong>즐겨찾기 <em class="num">3</em></strong></div>
+							<ul class="friend-list-items">
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb23.png" alt=""></span>
+										<div class="infos">
+											<span class="name new">형욱이</span>
+											<span class="summery">하루하루 더 열심히!</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb24.png" alt=""></span>
+										<div class="infos">
+											<span class="name new">박제인</span>
+											<span class="summery">변화가 필요해</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb25.png" alt=""></span>
+										<div class="infos">
+											<span class="name">가으니</span>
+											<span class="summery">인생 독고다이!</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="friend">
+							<div class="row-tit"><strong>친구 <em class="num">40</em></strong></div>
+							<div class="friend-sort">ㄱ</div>
+							<ul class="friend-list-items">
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb26.png" alt=""></span>
+										<div class="infos">
+											<span class="name">고가은</span>
+											<span class="summery">우리 행복하자</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb24.png" alt=""></span>
+										<div class="infos">
+											<span class="name">고우영</span>
+											<span class="summery">지금은 오키나와</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="friend-sort">ㄹ</div>
+							<ul class="friend-list-items">
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb27.png" alt=""></span>
+										<div class="infos">
+											<span class="name">류민정</span>
+											<span class="summery">마음만 먹으면 다 할 수 있지</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb28.png" alt=""></span>
+										<div class="infos">
+											<span class="name">류민희</span>
+											<span class="summery">♥︎</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb29.png" alt=""></span>
+										<div class="infos">
+											<span class="name">류지수</span>
+											<span class="summery">마음만 먹으면 다 할 수 있지</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb27.png" alt=""></span>
+										<div class="infos">
+											<span class="name">류민정</span>
+											<span class="summery">마음만 먹으면 다 할 수 있지</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb28.png" alt=""></span>
+										<div class="infos">
+											<span class="name">류민희</span>
+											<span class="summery">♥︎</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<span class="thumb"><img src="./resource/imgs/img_thumb29.png" alt=""></span>
+										<div class="infos">
+											<span class="name">류지수</span>
+											<span class="summery">마음만 먹으면 다 할 수 있지</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- //친구리스트 -->
+
+		<!-- 베네핏 -->
+		<div class="benepicks" style="display:none;">
+			<header class="header">
+				<div class="inner">
+					<h1 class="tit">베네픽</h1>
+					<ul class="util">
+						<li>
+							<button type="button" class="util__srch">search</button>
+						</li>
+						<li>
+							<button type="button" class="util__my">my</button>
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			<div class="container">
+				<section class="content">
+					<div class="benepick-main">
+						<div class="live-picks">
+							<strong class="live">LIVE</strong>
+
+							<div class="benepick-slider">
+								<div class="slide-in">
+									<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb1.png" alt=""></span>
+									<div class="swiper-slide-item">
+										<span class="thumb"
+													style="background:url(./resource/imgs/img_benefit-thumb1.jpg) center center no-repeat;background-size:cover;"></span>
+										<div class="txts">
+											<strong>모던 프렌치 시크 주얼리 브랜드</strong>
+											<span>셀럽이 선택한 프랑스 주얼리 브랜드<br>칼라노길레스 ~15% 할인중</span>
+										</div>
+									</div>
+									<div class="benepick-hit">
+										<button type="button" class="hit-bt">
+											<canvas
+													style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+										</button>
+										<em class="hit-number">5,369</em>
+									</div>
+								</div>
+
+								<div class="slide-in">
+									<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb2.png" alt=""></span>
+									<div class="swiper-slide-item">
+										<span class="thumb"
+													style="background:url(./resource/imgs/img_benefit-thumb2.jpg) center center no-repeat;background-size:cover;"></span>
+										<div class="txts">
+											<strong>제주 스타벅스 오픈 7주년 기념 이벤트</strong>
+											<span>지금 바로 쓸 수 있는 포인트 선물이 </span>
+										</div>
+									</div>
+									<div class="benepick-hit">
+										<button type="button" class="hit-bt">
+											<canvas
+													style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+										</button>
+										<em class="hit-number">25,369</em>
+									</div>
+								</div>
+
+								<div class="slide-in">
+									<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb3.png" alt=""></span>
+									<div class="swiper-slide-item">
+										<span class="thumb"
+													style="background:url(./resource/imgs/img_benefit-thumb3.jpg) center center no-repeat;background-size:cover;"></span>
+										<div class="txts">
+											<strong>AVEDA 공식몰 단독 혜택</strong>
+											<span>- 최소 만원 이상 구매시 적용<br>- 1인 1회 한정 (구매 후 취소 시 재적용 </span>
+										</div>
+									</div>
+									<div class="benepick-hit">
+										<button type="button" class="hit-bt">
+											<canvas
+													style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+										</button>
+										<em class="hit-number">12,001</em>
+									</div>
+								</div>
+
+								<div class="slide-in">
+									<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb4.png" alt=""></span>
+									<div class="swiper-slide-item">
+										<span class="thumb"
+													style="background:url(./resource/imgs/img_benefit-thumb4.jpg) center center no-repeat;background-size:cover;"></span>
+										<div class="txts">
+											<strong>모던클래식 감성, 프론트로우</strong>
+											<span>단 4일, 2019.02.11 ~ 02.14<br>프론트로우 18 FW 컬렉션 기간한정 특가</span>
+										</div>
+									</div>
+									<div class="benepick-hit">
+										<button type="button" class="hit-bt">
+											<canvas
+													style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+										</button>
+										<em class="hit-number">8,369</em>
+									</div>
+								</div>
+
+								<div class="slide-in">
+									<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb2.png" alt=""></span>
+									<div class="swiper-slide-item picks-detail-sb">
+										<span class="thumb"
+													style="background:url(./resource/imgs/img_benefit-thumb5.jpg) center center no-repeat;background-size:cover;"></span>
+										<div class="txts">
+											<strong>따뜻한 커피로 마음을 전하세요</strong>
+											<span>주는 사람도 받는 사람도 모두 행복해지는 <br>스타벅스만의 특별함을 느껴보세요</span>
+										</div>
+									</div>
+									<div class="benepick-hit">
+										<button type="button" class="hit-bt">
+											<canvas
+													style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+										</button>
+										<em class="hit-number">18,369</em>
+									</div>
+								</div>
+
+								<div class="slide-in">
+									<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb5.png" alt=""></span>
+									<div class="swiper-slide-item">
+										<span class="thumb"
+													style="background:url(./resource/imgs/img_benefit-thumb6.jpg) center center no-repeat;background-size:cover;"></span>
+										<div class="txts">
+											<strong>스타일 뿐아니라 보온까지</strong>
+											<span>추운 겨울을 포근하게 녹여 줄<br>어썸니즈만의 윈터컬렉션 시즌오프 세일</span>
+										</div>
+									</div>
+									<div class="benepick-hit">
+										<button type="button" class="hit-bt">
+											<canvas
+													style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+										</button>
+										<em class="hit-number">9,258</em>
+									</div>
+								</div>
+
+							</div>
+							<button type="button" class="all">all</button>
+						</div>
+
+						<div class="recom-picks">
+							<p class="benepick-tit">
+								승아님의<br>PICK을 위한 추천이에요!
+							</p>
+							<div class="recom-tabs">
+								<div class="recom-tab-items">
+									<ul>
+										<li><a href="javascript:;" class="is-actived" data-tab="beauty">뷰티</a></li>
+										<li><a href="javascript:;"data-tab="eatout">외식</a></li>
+										<li><a href="javascript:;" data-tab="fashion">패션</a></li>
+										<li><a href="javascript:;"data-tab="finance">금융</a></li>
+										<li><a href="javascript:;"data-tab="hospital">병원</a></li>
+									</ul>
+								</div>
+								<div class="recom-tab-util">
+									<button type="button" class="add">add</button>
+									<button type="button" class="all">전체</button>
+								</div>
+							</div>
+							<div class="recom-tab-content">
+								<div id="beauty" style="display:block;">
+									<div class="brand-scroll">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_kerastase.png" alt=""></span>
+													<strong class="name-eng">KERASTASE</strong>
+													<span class="name-kr">케라스타즈</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_darphin.png" alt=""></span>
+													<strong class="name-eng">DARPHIN</strong>
+													<span class="name-kr">달팡</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_aveda.png" alt=""></span>
+													<strong class="name-eng">AVEDA</strong>
+													<span class="name-kr">아베다</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_huxley.png" alt=""></span>
+													<strong class="name-eng">HUXLEY</strong>
+													<span class="name-kr">헉슬리</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brend-swiper">
+										<div class="swiper-container">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><img src="./resource/imgs/img_recom-pick-thumb.png" alt=""></div>
+												<div class="swiper-slide"><img src="./resource/imgs/img_recom-pick-thumb.png" alt=""></div>
+												<div class="swiper-slide"><img src="./resource/imgs/img_recom-pick-thumb.png" alt=""></div>
+												<div class="swiper-slide"><img src="./resource/imgs/img_recom-pick-thumb.png" alt=""></div>
+											</div>
+											<div class="swiper-pagination"></div>
+										</div>
+									</div>
+									<div class="brand-all-hashtag">
+										<ul>
+											<li><a href="" class="bold">꿀보습</a></li>
+											<li><a href="">헤어트리트먼트</a></li>
+											<li><a href="">홀리데이컬렉션</a></li>
+											<li><a href="">피부수분</a></li>
+											<li><a href="" class="bold">크리스마스메이크업</a></li>
+											<li><a href="">속당김</a></li>
+										</ul>
+									</div>
+									<div class="brand-hashtag">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_loccitane.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">록시땅</strong>
+															<span class="t2">차곡차곡 보습을 쌓아주는 <em class="tag">#보습</em> 스프레드</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_avene.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">아벤느</strong>
+															<span class="t2">피부 진정 및 피부 장벽 강화 <em class="tag">#유수분밸런스</em></span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_aveda2.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">아베다</strong>
+															<span class="t2">당김없이 부드럽고 <em class="tag">#촉촉하게</em> 클렌징하다</span>
+														</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brand-sns">
+										<div class="thumbs">
+											<a href=""><img src="./resource/imgs/img_mix-thumb.png" alt=""></a>
+										</div>
+										<button type="button" class="more"><span>더보기</span></button>
+									</div>
+								</div>
+								<div id="eatout" style="display:none;">
+									<div class="brand-scroll">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_kerastase.png" alt=""></span>
+													<strong class="name-eng">KERASTASE</strong>
+													<span class="name-kr">케라스타즈</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_darphin.png" alt=""></span>
+													<strong class="name-eng">DARPHIN</strong>
+													<span class="name-kr">달팡</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_aveda.png" alt=""></span>
+													<strong class="name-eng">AVEDA</strong>
+													<span class="name-kr">아베다</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_huxley.png" alt=""></span>
+													<strong class="name-eng">HUXLEY</strong>
+													<span class="name-kr">헉슬리</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brend-swiper2">
+										<div class="swiper-container">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><img src="./resource/imgs/img_recom-pick-thumb.png" alt=""></div>
+											</div>
+											<div class="swiper-pagination"></div>
+										</div>
+									</div>
+									<div class="brand-all-hashtag">
+										<ul>
+											<li><a href="" class="bold">꿀보습</a></li>
+											<li><a href="">헤어트리트먼트</a></li>
+											<li><a href="">홀리데이컬렉션</a></li>
+											<li><a href="">피부수분</a></li>
+											<li><a href="" class="bold">크리스마스메이크업</a></li>
+											<li><a href="">속당김</a></li>
+										</ul>
+									</div>
+									<div class="brand-hashtag">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_loccitane.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">록시땅</strong>
+															<span class="t2">차곡차곡 보습을 쌓아주는 <em class="tag">#보습</em> 스프레드</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_avene.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">아벤느</strong>
+															<span class="t2">피부 진정 및 피부 장벽 강화 <em class="tag">#유수분밸런스</em></span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_aveda2.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">아베다</strong>
+															<span class="t2">당김없이 부드럽고 <em class="tag">#촉촉하게</em> 클렌징하다</span>
+														</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brand-sns">
+										<div class="thumbs">
+											<a href=""><img src="./resource/imgs/img_mix-thumb.png" alt=""></a>
+										</div>
+										<button type="button" class="more"><span>더보기</span></button>
+									</div>
+								</div>
+								<div id="fashion" style="display:none;">
+									<div class="brand-scroll">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_yuppe.png" alt=""></span>
+													<strong class="name-eng">YUPPE</strong>
+													<span class="name-kr">엽페</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_beslow.png" alt=""></span>
+													<strong class="name-eng">BESLOW</strong>
+													<span class="name-kr">비슬로우</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_arco.png" alt=""></span>
+													<strong class="name-eng">ARCO</strong>
+													<span class="name-kr">아르코</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_clato.png" alt=""></span>
+													<strong class="name-eng">CLATO</strong>
+													<span class="name-kr">클라토</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brend-swiper3">
+										<div class="swiper-container">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><img src="./resource/imgs/img_recom-pick-thumb2.png" alt=""></div>
+											</div>
+											<div class="swiper-pagination"></div>
+										</div>
+									</div>
+									<div class="brand-all-hashtag">
+										<ul>
+											<li><a href="" class="bold">19spring</a></li>
+											<li><a href="">클래식</a></li>
+											<li><a href="">테크니컬다운파카</a></li>
+											<li><a href="">핸드메이드코트</a></li>
+											<li><a href="" class="bold">시즌오프패딩</a></li>
+											<li><a href="">19S/S</a></li>
+										</ul>
+									</div>
+									<div class="brand-hashtag">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_awesomeneeds.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">어썸니즈</strong>
+															<span class="t2">어썸니즈만의 매력적인 <em class="tag">#클래식</em> 프로덕트</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_da.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">다이애그널</strong>
+															<span class="t2">간결하지만 감각적인 다이애그널 무드 <em class="tag">#19S/S</em></span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_key.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">키르시</strong>
+															<span class="t2">키르시의 시그니처 체리 라인 <em class="tag">#19spring</em></span>
+														</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brand-sns">
+										<div class="thumbs">
+											<a href=""><img src="./resource/imgs/img_mix-thumb2.png" alt=""></a>
+										</div>
+										<button type="button" class="more"><span>더보기</span></button>
+									</div>
+								</div>
+								<div id="finance" style="display:none;">
+									<div class="brand-scroll">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_kerastase.png" alt=""></span>
+													<strong class="name-eng">KERASTASE</strong>
+													<span class="name-kr">케라스타즈</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_darphin.png" alt=""></span>
+													<strong class="name-eng">DARPHIN</strong>
+													<span class="name-kr">달팡</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_aveda.png" alt=""></span>
+													<strong class="name-eng">AVEDA</strong>
+													<span class="name-kr">아베다</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_huxley.png" alt=""></span>
+													<strong class="name-eng">HUXLEY</strong>
+													<span class="name-kr">헉슬리</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brend-swiper4">
+										<div class="swiper-container">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><img src="./resource/imgs/img_recom-pick-thumb.png" alt=""></div>
+											</div>
+											<div class="swiper-pagination"></div>
+										</div>
+									</div>
+									<div class="brand-all-hashtag">
+										<ul>
+											<li><a href="" class="bold">꿀보습</a></li>
+											<li><a href="">헤어트리트먼트</a></li>
+											<li><a href="">홀리데이컬렉션</a></li>
+											<li><a href="">피부수분</a></li>
+											<li><a href="" class="bold">크리스마스메이크업</a></li>
+											<li><a href="">속당김</a></li>
+										</ul>
+									</div>
+									<div class="brand-hashtag">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_loccitane.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">록시땅</strong>
+															<span class="t2">차곡차곡 보습을 쌓아주는 <em class="tag">#보습</em> 스프레드</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_avene.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">아벤느</strong>
+															<span class="t2">피부 진정 및 피부 장벽 강화 <em class="tag">#유수분밸런스</em></span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_aveda2.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">아베다</strong>
+															<span class="t2">당김없이 부드럽고 <em class="tag">#촉촉하게</em> 클렌징하다</span>
+														</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brand-sns">
+										<div class="thumbs">
+											<a href=""><img src="./resource/imgs/img_mix-thumb.png" alt=""></a>
+										</div>
+										<button type="button" class="more"><span>더보기</span></button>
+									</div>
+								</div>
+								<div id="hospital" style="display:none;">
+									<div class="brand-scroll">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_kerastase.png" alt=""></span>
+													<strong class="name-eng">KERASTASE</strong>
+													<span class="name-kr">케라스타즈</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_darphin.png" alt=""></span>
+													<strong class="name-eng">DARPHIN</strong>
+													<span class="name-kr">달팡</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_aveda.png" alt=""></span>
+													<strong class="name-eng">AVEDA</strong>
+													<span class="name-kr">아베다</span>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_huxley.png" alt=""></span>
+													<strong class="name-eng">HUXLEY</strong>
+													<span class="name-kr">헉슬리</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brend-swiper5 ">
+										<div class="swiper-container">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><img src="./resource/imgs/img_recom-pick-thumb.png" alt=""></div>
+											</div>
+											<div class="swiper-pagination"></div>
+										</div>
+									</div>
+									<div class="brand-all-hashtag">
+										<ul>
+											<li><a href="" class="bold">꿀보습</a></li>
+											<li><a href="">헤어트리트먼트</a></li>
+											<li><a href="">홀리데이컬렉션</a></li>
+											<li><a href="">피부수분</a></li>
+											<li><a href="" class="bold">크리스마스메이크업</a></li>
+											<li><a href="">속당김</a></li>
+										</ul>
+									</div>
+									<div class="brand-hashtag">
+										<ul>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_loccitane.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">록시땅</strong>
+															<span class="t2">차곡차곡 보습을 쌓아주는 <em class="tag">#보습</em> 스프레드</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_avene.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">아벤느</strong>
+															<span class="t2">피부 진정 및 피부 장벽 강화 <em class="tag">#유수분밸런스</em></span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<span class="thumb"><img src="./resource/imgs/img_aveda2.png" alt=""></span>
+													<div class="txts">
+														<div class="mid">
+															<strong class="t1">아베다</strong>
+															<span class="t2">당김없이 부드럽고 <em class="tag">#촉촉하게</em> 클렌징하다</span>
+														</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="brand-sns">
+										<div class="thumbs">
+											<a href=""><img src="./resource/imgs/img_mix-thumb.png" alt=""></a>
+										</div>
+										<button type="button" class="more"><span>더보기</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="friend-picks">
+							<p class="benepick-tit">
+								<a href="">친구들의 PICK 보기</a>
+							</p>
+							<p class="benepick-tit-sub">#더블유컨셉 #쿠아비노 #홀리데이컬렉션</p>
+							<div class="friend-pick-list">
+								<ul>
+									<li>
+										<a href="">
+											<span class="thumb"><img src="./resource/imgs/img_friend-pick-thumb1.png" alt=""></span>
+											<strong class="t1">GAKURO</strong>
+											<span class="t2">가쿠로</span>
+											<em class="t3">15% 할인</em>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<span class="thumb"><img src="./resource/imgs/img_friend-pick-thumb2.png" alt=""></span>
+											<strong class="t1">NILBY P</strong>
+											<span class="t2">닐바이피</span>
+											<em class="t3">5,000원 할인</em>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<span class="thumb"><img src="./resource/imgs/img_friend-pick-thumb3.png" alt=""></span>
+											<strong class="t1">AVEDA</strong>
+											<span class="t2">아베다</span>
+											<em class="t3">배송비 무료</em>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="coupon-views">
+							<p class="benepick-tit">
+								내주변 쿠폰 보기
+							</p>
+							<div class="coupon-util">
+								<button type="button" class="my-pos">분당구 삼평동</button>
+								<button type="button" class="current-pos">현위치 주변</button>
+							</div>
+							<div class="coupon-list">
+								<ul>
+									<li class="coupon-item">
+										<span class="thumb"><img src="./resource/imgs/img_thumb2.png" alt=""></span>
+										<div class="infos">
+											<div class="mid">
+												<span class="t1">스타벅스</span>
+												<strong class="t2">웰컴 쿠폰</strong>
+												<em class="t3">2018.12.01~12.31</em>
+											</div>
+										</div>
+										<button type="button" class="down">download</button>
+									</li>
+									<li class="coupon-item">
+										<span class="thumb"><img src="./resource/imgs/img_thumb38.png" alt=""></span>
+										<div class="infos">
+											<div class="mid">
+												<span class="t1">더블유컨셉</span>
+												<strong class="t2">선착순 25%</strong>
+												<em class="t3">2018.12.05~12.20</em>
+											</div>
+										</div>
+										<button type="button" class="down">download</button>
+									</li>
+									<li class="coupon-item">
+										<span class="thumb"><img src="./resource/imgs/img_thumb39.png" alt=""></span>
+										<div class="infos">
+											<div class="mid">
+												<span class="t1">시코르</span>
+												<strong class="t2">5천원 할인</strong>
+												<em class="t3">2018.12.01~12.31</em>
+											</div>
+										</div>
+										<button type="button" class="down">download</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- //베네핏 -->
+
+		<aside class="quick">
+			<ul>
+				<li>
+					<button type="button" class="quick__phonebook">phonebook</button>
+				</li>
+				<li>
+					<button type="button" class="quick__list is-actived">list <em class="number">7</em></button>
+				</li>
+				<li>
+					<button type="button" class="quick__benefit">benefit</button>
+				</li>
+			</ul>
+		</aside>
+
+		<div class="toast">
+			마이픽에 추가되었습니다
+		</div>
+	</div>
+
+	<!-- 실시간 베네픽 전체보기 -->
+	<div class="chart live-picks-all" style="display:block;">
+		<div class="top-forms white">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				실시간 베네픽 전체보기
+			</p>
+		</div>
+
+		<div class="scroll-views white b0">
+			<div class="live-pick-all">
+				<div class="live-picks">
+					<div class="benepick-slider">
+						<div class="slide-in">
+							<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb1.png" alt=""></span>
+							<div class="swiper-slide-item">
+								<span class="thumb"
+											style="background:url(./resource/imgs/img_benefit-thumb1.jpg) center center no-repeat;background-size:cover;"></span>
+								<div class="txts">
+									<strong>모던 프렌치 시크 주얼리 브랜드</strong>
+									<span>셀럽이 선택한 프랑스 주얼리 브랜드<br>칼라노길레스 ~15% 할인중</span>
+								</div>
+							</div>
+							<div class="benepick-hit">
+								<button type="button" class="hit-bt">
+									<canvas
+											style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+								</button>
+								<em class="hit-number">5,369</em>
+							</div>
+						</div>
+
+						<div class="slide-in">
+							<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb2.png" alt=""></span>
+							<div class="swiper-slide-item">
+								<span class="thumb"
+											style="background:url(./resource/imgs/img_benefit-thumb2.jpg) center center no-repeat;background-size:cover;"></span>
+								<div class="txts">
+									<strong>제주 스타벅스 오픈 7주년 기념 이벤트</strong>
+									<span>지금 바로 쓸 수 있는 포인트 선물이 </span>
+								</div>
+							</div>
+							<div class="benepick-hit">
+								<button type="button" class="hit-bt">
+									<canvas
+											style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+								</button>
+								<em class="hit-number">25,369</em>
+							</div>
+						</div>
+
+						<div class="slide-in">
+							<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb3.png" alt=""></span>
+							<div class="swiper-slide-item">
+								<span class="thumb"
+											style="background:url(./resource/imgs/img_benefit-thumb3.jpg) center center no-repeat;background-size:cover;"></span>
+								<div class="txts">
+									<strong>AVEDA 공식몰 단독 혜택</strong>
+									<span>- 최소 만원 이상 구매시 적용<br>- 1인 1회 한정 (구매 후 취소 시 재적용 </span>
+								</div>
+							</div>
+							<div class="benepick-hit">
+								<button type="button" class="hit-bt">
+									<canvas
+											style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+								</button>
+								<em class="hit-number">12,001</em>
+							</div>
+						</div>
+
+						<div class="slide-in">
+							<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb4.png" alt=""></span>
+							<div class="swiper-slide-item">
+								<span class="thumb"
+											style="background:url(./resource/imgs/img_benefit-thumb4.jpg) center center no-repeat;background-size:cover;"></span>
+								<div class="txts">
+									<strong>모던클래식 감성, 프론트로우</strong>
+									<span>단 4일, 2019.02.11 ~ 02.14<br>프론트로우 18 FW 컬렉션 기간한정 특가</span>
+								</div>
+							</div>
+							<div class="benepick-hit">
+								<button type="button" class="hit-bt">
+									<canvas
+											style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+								</button>
+								<em class="hit-number">8,369</em>
+							</div>
+						</div>
+
+						<div class="slide-in">
+							<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb2.png" alt=""></span>
+							<div class="swiper-slide-item picks-detail-sb">
+								<span class="thumb"
+											style="background:url(./resource/imgs/img_benefit-thumb5.jpg) center center no-repeat;background-size:cover;"></span>
+								<div class="txts">
+									<strong>따뜻한 커피로 마음을 전하세요</strong>
+									<span>주는 사람도 받는 사람도 모두 행복해지는 <br>스타벅스만의 특별함을 느껴보세요</span>
+								</div>
+							</div>
+							<div class="benepick-hit">
+								<button type="button" class="hit-bt">
+									<canvas
+											style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+								</button>
+								<em class="hit-number">18,369</em>
+							</div>
+						</div>
+
+						<div class="slide-in">
+							<span class="logo"><img src="./resource/imgs/img_benefit-brand-thumb5.png" alt=""></span>
+							<div class="swiper-slide-item">
+								<span class="thumb"
+											style="background:url(./resource/imgs/img_benefit-thumb6.jpg) center center no-repeat;background-size:cover;"></span>
+								<div class="txts">
+									<strong>스타일 뿐아니라 보온까지</strong>
+									<span>추운 겨울을 포근하게 녹여 줄<br>어썸니즈만의 윈터컬렉션 시즌오프 세일</span>
+								</div>
+							</div>
+							<div class="benepick-hit">
+								<button type="button" class="hit-bt">
+									<canvas
+											style="display:none;width:140px;height:140px;margin:-70px 0px 0px -69px;position:absolute;top:50%;left:50%;"></canvas>
+								</button>
+								<em class="hit-number">9,258</em>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //실시간 베네픽 전체보기 -->
+
+
+	<!-- 베네핏 - 상세 -->
+	<div class="benepick-detail" style="display:none;">
+		<div class="inner">
+			<div class="top-forms">
+				<button type="button" class="back gray">back</button>
+				<p class="tit">
+					<a href="javascript:;" class="move-brandhome-sb">
+						<span class="thumb"><img src="./resource/imgs/img_thumb2.png" alt=""></span> <span class="name">Starbucks</span>
+					</a>
+				</p>
+				<div class="utils">
+					<ul>
+						<li>
+							<button type="button" class="close gray">close</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="detail-view">
+				<div class="in-scroll">
+					<img src="./resource/imgs/img_benefit-thumb5.jpg" alt="">
+					<div class="txts">
+						<strong style="font-size:14px;padding:10px 0;">따뜻한 커피로 마음을 전하세요</strong>
+
+						지금 바로 쓸 수 있는 포인트 선물이 도착했습니
+						다. 스타벅스 라떼 음료를 구매하시면, 미션 e-스
+						티커 1개를 즉시 추가로 드립니다.<br>
+						대상 음료 : 카페 라떼, 토피 넛 라떼, 스타벅스
+						돌체 라떼, 그린 티 라떼, 카페 라떼<br>
+						총7종 (제주 카페 아메리카노, 제주 카페
+						라떼 제외)
+
+						<br><br>
+
+						<strong>카테고리 보러가기</strong>
+						https://ss37g.app.goo.gl/NdPg
+
+						<br><br>
+
+						<strong>카테고리 추천 상품</strong>
+						- [교토마블] 데니쉬 식빵 6종<br>
+						- [바켄] 메이플 페스추리<br>
+						- [몽슈슈] 도지마롤 2종<br>
+						- [르푸도레] 더블초코 크로아상<br>
+						- [리치몬드 과자점] 밤식빵
+
+						<br><br>
+
+						<strong>쿠폰 사용 안내</strong>
+						- ID: agehasj로 접속<br>
+						- 빵·잼 카테고리 상품 50% 할인<br>
+						- 주문서 단계에서 쿠폰 적용 가능<br>
+						- 기한: 내일(11/1) 20시까지<br>
+						*2만원 이상 주문 시 사용가능<br>
+						**최대 1만원 할인
+
+						무료거부 080-877-9668
+					</div>
+				</div>
+				<button type="button" class="want">브랜드와 친구 맺고 쿠폰 받기</button>
+			</div>
+		</div>
+		<div class="menubar">
+			<ul>
+				<li><a href="" class="mb1">브랜드홈</a></li>
+				<li><a href="" class="mb2">공유</a></li>
+				<li><a href="" class="mb3">픽하기</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- //베네핏 - 상세 -->
+
+	<!-- 검색 -->
+	<div class="search" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<div class="inputs">
+				<input type="text" placeholder="검색어를 입력해주세요">
+			</div>
+		</div>
+		<div class="latest-freind">
+			<strong class="tit">최근 검색한 친구</strong>
+			<div class="friend-scroll">
+				<ul>
+					<li>
+						<span class="thumb"><img src="./resource/imgs/img_thumb15.png" alt=""></span>
+						<em class="name noti">이수현</em>
+						<button type="button" class="del">delete</button>
+					</li>
+					<li>
+						<span class="thumb"><img src="./resource/imgs/img_thumb12.png" alt=""></span>
+						<em class="name">Jane</em>
+						<button type="button" class="del">delete</button>
+					</li>
+					<li>
+						<span class="thumb"><img src="./resource/imgs/img_thumb16.png" alt=""></span>
+						<em class="name">아리따움</em>
+						<button type="button" class="del">delete</button>
+					</li>
+					<li>
+						<span class="thumb"><img src="./resource/imgs/img_thumb17.png" alt=""></span>
+						<em class="name">샤넬</em>
+						<button type="button" class="del">delete</button>
+					</li>
+					<li>
+						<span class="thumb"><img src="./resource/imgs/img_thumb18.png" alt=""></span>
+						<em class="name">LF몰</em>
+						<button type="button" class="del">delete</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="latest-keyword">
+			<strong class="tit">최근 검색어</strong>
+			<ul>
+				<li class="keyword">
+					<a href="">아리따움</a>
+					<button type="button" class="del">del</button>
+				</li>
+				<li class="keyword">
+					<a href="">우리 가족방</a>
+					<button type="button" class="del">del</button>
+				</li>
+				<li class="keyword">
+					<a href="">쿠폰</a>
+					<button type="button" class="del">del</button>
+				</li>
+				<li class="keyword">
+					<a href="">지마켓</a>
+					<button type="button" class="del">del</button>
+				</li>
+				<li class="keyword">
+					<a href="">Alex</a>
+					<button type="button" class="del">del</button>
+				</li>
+			</ul>
+		</div>
+		<div class="add-files">
+			<strong class="tit">첨부파일 모아보기 </strong>
+			<ul>
+				<li>
+					<a href="">
+						<span class="thumb"><img src="./resource/imgs/img_add-thumb1.png" alt=""></span>
+						<em class="subject">이미지</em>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="thumb"><img src="./resource/imgs/img_add-thumb2.png" alt=""></span>
+						<em class="subject">동영상</em>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="thumb"><img src="./resource/imgs/img_add-thumb3.png" alt=""></span>
+						<em class="subject">링크</em>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="thumb"><img src="./resource/imgs/img_add-thumb4.png" alt=""></span>
+						<em class="subject">파일</em>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--<div class="msg-input-box">-->
+			<!--<button type="button" class="add">add</button>-->
+			<!--<span class="inputs">-->
+        <!--<input type="text" placeholder="메시지를 입력하세요">-->
+        <!--<button type="button" class="emoji">emoji</button>-->
+      <!--</span>-->
+			<!--<button type="button" class="send">send</button>-->
+		<!--</div>-->
+	</div>
+	<!-- //검색 -->
+
+	<!-- 나의 픽 전체 -->
+	<div class="mypicks" style="display:block;">
+			<div class="top-forms">
+				<button type="button" class="back white">back</button>
+				<p class="tit">마이픽</p>
+				<div class="utils">
+					<ul>
+						<li>
+							<button type="button" class="scrap">scrap</button>
+						</li>
+						<li>
+							<button type="button" class="filter">filter</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="scroll-views" style="bottom:0;">
+				<div class="mypick-lists">
+				<ul id="mypick-lists">
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb3.png" alt=""></span>
+							<div class="infos">
+								<span class="name">마켓컬리</span>
+								<p class="t1">마켓컬리 빵·잼 50% 할인</p>
+								<em class="t2">11월 25일까지</em>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner link-starbucks">
+							<span class="thumb"><img src="./resource/imgs/img_thumb2.png" alt=""></span>
+							<div class="infos">
+								<span class="name">Starbucks</span>
+								<p class="t1">바로 쓸 수 있는 포인트<br>선물이 도착했습니다</p>
+								<div class="imgs">
+									<img src="./resource/imgs/img_mypick-thumb5.png" alt="">
+								</div>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb19.png" alt=""></span>
+							<div class="infos">
+								<span class="name">이수현</span>
+								<p class="t1"><em class="point">오늘</em> 예방 접종 잊지마</p>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb20.png" alt=""></span>
+							<div class="infos">
+								<span class="name">판교 메디피움</span>
+								<p class="t1">
+									<em class="point2">건강검진 예약</em><br>
+									10월 10일 3시<br>
+									서울병원 1층 건강검진센터
+								</p>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb nf"><img src="./resource/imgs/img_thumb6.png" alt=""></span>
+							<div class="infos">
+								<span class="name">SK 메시지 <em class="ico people">7</em></span>
+								<p class="t1">
+									<em class="point3">이수현</em> 보고서 메일로 보냈 습니다. 메일 확인 후 회신 부탁드립니다. 감사합니다.
+								</p>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb21.png" alt=""></span>
+							<div class="infos">
+								<span class="name">BC카드</span>
+								<p class="t1">(광고) BC카드<br>12월의 문화혜택 </p>
+								<div class="imgs">
+									<strong class="more-number">+3</strong>
+									<img src="./resource/imgs/img_mypick-thumb2.png" alt="">
+								</div>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb22.png" alt=""></span>
+							<div class="infos">
+								<span class="name">박서준</span>
+								<p class="t1">놀라운 퀸 열풍, 보헤미안 랩소디의 주인공 프레디의 머큐리 영상 공개 <a href="">https://m.entertain.c..</a></p>
+								<div class="imgs">
+									<img src="./resource/imgs/img_mypick-thumb1.png" alt="">
+								</div>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb1.png" alt=""></span>
+							<div class="infos">
+								<span class="name">김지원</span>
+								<p class="t1">오늘 우리 놀러가서 찍은 사 진이랑 이야기 녹음한 파일 보내요. 그리고 일주일 뒤...</p>
+								<div class="box">
+									<div class="box-in">
+										<img src="./resource/imgs/ico_mic.png" alt="">
+										<div class="box-txts">
+											<div class="bt1">별이빛나는밤.amr</div>
+											<div class="bt2">00:22</div>
+										</div>
+										<strong class="more-number">+3</strong>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb15.png" alt=""></span>
+							<div class="infos">
+								<span class="name">이수현</span>
+								<p class="t1">경기도 성남시 분당구 판교 역로 182 삼평동 644</p>
+								<div class="imgs">
+									<img src="./resource/imgs/img_mypick-thumb3.png" alt="">
+									<img src="./resource/imgs/img_tmap.png" alt="" class="tmap">
+								</div>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb19.png" alt=""></span>
+							<div class="infos">
+								<span class="name">이수현</span>
+								<p class="t1">오늘 우리 놀러가서 찍은 사 진이랑 이야기 녹음한 파일 보내요. 그리고 일주일 뒤...</p>
+								<div class="box">
+									<div class="box-in">
+										<img src="./resource/imgs/ico_cal.png" alt="">
+										<div class="box-txts">
+											<div class="bt1">2차 중간 리뷰</div>
+											<div class="bt2">11월 19일(수) 오전 10시</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb19.png" alt=""></span>
+							<div class="infos">
+								<span class="name">이수현</span>
+								<p class="t1">오늘 우리 놀러가서 찍은 사 진이랑 이야기 녹음한 파일 보내요. 그리고 일주일 뒤...</p>
+								<div class="box">
+									<div class="box-in">
+										<img src="./resource/imgs/ico_peoples2.png" alt="">
+										<div class="box-txts">
+											<div class="bt1">고송이 차장</div>
+											<div class="bt2">010-2345-3456</div>
+										</div>
+									</div>
+								</div>
+								<div class="links">
+									<ul>
+										<li><a href="" class="call">call</a></li>
+										<li><a href="" class="msg">msg</a></li>
+										<li><a href="" class="download">download</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+
+					<li class="mypick-item">
+						<div class="inner">
+							<span class="thumb"><img src="./resource/imgs/img_thumb15.png" alt=""></span>
+							<div class="infos">
+								<span class="name">이수현</span>
+								<div class="imgs">
+									<img src="./resource/imgs/img_mypick-thumb4.png" alt="">
+								</div>
+							</div>
+						</div>
+						<button type="button" class="util">util</button>
+					</li>
+				</ul>
+			</div>
+				<button type="button" class="more-mypicks">지나간 쿠폰/일정 모아보기</button>
+			</div>
+	</div>
+	<!-- //나의 픽 전체 -->
+
+	<!-- 프로필 - 김지원 -->
+	<div class="profile profile1" style="display:block;background:url('./resource/imgs/img_profile-thumb1.jpg') center center no-repeat;background-size:cover;">
+		<div class="profile-inner">
+			<div class="profile__text">
+				<div>
+					<p>변화가 필요해</p>
+				</div>
+			</div>
+			<div class="profile__users">
+				<div class="profile__users--card">
+					<div class="profile__swiper">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="default-card">
+										<span class="thumb"><img src="./resource/imgs/img_thumb1.png" alt=""></span>
+										<div class="txts">
+											<strong class="name new">김지원</strong>
+											<span class="phone">010-1234-5678</span>
+										</div>
+										<button type="button" class="fav">fav</button>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="line-box">
+										<div class="detail-card">
+											<div class="txts">
+												<p class="t1">김지원</p>
+												<p class="t2">JIWON KIM<br>UI UX RESEARCH GROUP LEADER</p>
+												<p class="t3">
+													경기도 성남시 분당구 판교역로 182 (삼평동, 한국반도체산업협회) 805호<br>
+													MOBILE +82.10.4438.4230<br>
+													EMAIL SORA@PEAK-NIC.COM<br>
+													WWW.PEAKNIC.CO.KR
+												</p>
+											</div>
+										</div>
+										<button type="button" class="sns">sns</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+				<div class="profile__users--bts">
+					<button type="button">대화하기</button>
+					<button type="button">전화하기</button>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="close">close</button>
+	</div>
+	<!-- //프로필 - 김지원  -->
+
+	<!-- 프로필 - 백승아 -->
+	<div class="profile profile2" style="display:block;background:url('./resource/imgs/img_profile-thumb2.jpg') center center no-repeat;background-size:cover;">
+		<div class="profile-inner">
+			<div class="profile__text">
+				<div>
+					<p>승아는 뉴욕 여행중</p>
+				</div>
+			</div>
+			<div class="profile__users">
+				<div class="profile__users--card">
+					<div class="profile__swiper">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="default-card">
+										<span class="thumb"><img src="./resource/imgs/img_thumb30.png" alt=""></span>
+										<div class="txts">
+											<strong class="name">백승아</strong>
+											<span class="phone">010-1234-5678</span>
+										</div>
+										<!--<button type="button" class="fav">fav</button>-->
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="line-box">
+										<div class="detail-card">
+											<div class="txts">
+												<p class="t1">백승아</p>
+												<p class="t2">SEUNGA PAIK<br>UI UX RESEARCH GROUP LEADER</p>
+												<p class="t3">
+													경기도 성남시 분당구 판교역로 182 (삼평동, 한국반도체산업협회) 805호<br>
+													MOBILE +82.10.4438.4230<br>
+													EMAIL SORA@PEAK-NIC.COM<br>
+													WWW.PEAKNIC.CO.KR
+												</p>
+											</div>
+										</div>
+										<button type="button" class="sns">sns</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+				<div class="profile__users--bts">
+					<button type="button">나에게 대화</button>
+					<button type="button">프로필 관리</button>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="close">close</button>
+	</div>
+	<!-- //프로필 - 백승아 -->
+
+	<!-- 채팅 - 김지원 -->
+	<div class="chart default-chart" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				<a href="javascript:;" class="move-profile1">
+					<span class="thumb"><img src="./resource/imgs/img_thumb1.png" alt=""></span> <span class="name new">김지원</span>
+				</a>
+			</p>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="srch">search</button>
+					</li>
+					<li>
+						<button type="button" class="call">call</button>
+					</li>
+					<li>
+						<button type="button" class="menu">menu</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="scroll-views">
+			<div class="charting">
+				<div class="chart-item you">
+					<p class="txt">
+						승아야
+					</p>
+				</div>
+				<div class="chart-item you chain">
+					<p class="txt">
+						이번주 모임 갈거지?
+					</p>
+				</div>
+				<div class="chart-item you chain">
+					<p class="txt">
+						몇시까지야?
+					</p>
+					<span class="date">오후 02:45</span>
+				</div>
+
+				<div class="chart-item green me">
+					<p class="txt">
+						지원아!<br>
+						잠깐만 기다려봐~
+					</p>
+				</div>
+
+				<div class="here-read">
+					여기까지 읽으셨습니다.
+				</div>
+
+				<p class="invite-msg mid"><span>김지원</span>님과의 채팅이 시작되었습니다.</p>
+
+				<div class="chart-item you">
+					<p class="txt">
+						오늘 우리 놀러가서 찍은 사진이야<br>
+						이따 만나서 더 보내줄께<br>
+						날씨가 좋아서 사진이 다 잘나와서<br>
+						너무 기분이 좋다 :p<br>
+						이따 보아~
+					</p>
+					<p class="imgs">
+						<img src="./resource/imgs/img_msg1.png" alt="">
+					</p>
+				</div>
+				<div class="chart-item you chain">
+					<p class="txt">
+						승아야
+					</p>
+				</div>
+				<div class="chart-item you chain">
+					<p class="txt">
+						사진받아
+					</p>
+					<span class="date">오후 02:45</span>
+				</div>
+
+				<div class="chart-item me chain">
+					<p class="txt">
+						지원
+					</p>
+				</div>
+				<div class="chart-item me chain">
+					<p class="txt">
+						오랜만~
+					</p>
+				</div>
+				<div class="chart-item me chain">
+					<p class="txt">
+						모임 가야지~~
+					</p>
+				</div>
+				<div class="chart-item me chain-last">
+					<p class="txt">
+						6시
+					</p>
+					<span class="date">오후 04:20</span>
+				</div>
+
+
+				<div class="chart-item you">
+					<p class="txt">
+						금요일 오전에는 약속이 있어서<br>
+						난 조금 늦게갈 거 같아
+					</p>
+					<span class="date">오후 04:22</span>
+				</div>
+
+				<div class="chart-item you">
+					<p class="txt">
+						나도 사진 공유해줘
+					</p>
+					<span class="date">오후 04:22</span>
+				</div>
+
+			</div>
+			<p class="standby-txt">나도 사진 공유해줘~</p>
+		</div>
+
+		<div class="msg-input-box">
+			<button type="button" class="add">add</button>
+			<span class="inputs">
+        <input type="text" placeholder="메시지를 입력하세요">
+        <button type="button" class="emoji">emoji</button>
+      </span>
+			<button type="button" class="send">send</button>
+		</div>
+	</div>
+	<!-- //채팅 - 김지원 -->
+
+	<!-- 채팅 - 절친모임 -->
+	<div class="chart multiplex-chart" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				<a href="javascript:;" class="move-profile1">
+					<span class="thumb"><img src="./resource/imgs/img_thumb6.png" alt=""></span> <span class="name new">절친모임</span> <em class="ico people">5</em>
+				</a>
+			</p>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="srch">search</button>
+					</li>
+					<li>
+						<button type="button" class="call">call</button>
+					</li>
+					<li>
+						<button type="button" class="menu">menu</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="scroll-views">
+			<div class="charting">
+				<p class="invite-msg first">김수현님이 <span>형욱이</span>님과 <span>고가온</span>님을 초대했습니다. </p>
+
+				<div class="chart-item me">
+					<p class="txt">
+						오랜만이야
+					</p>
+					<span class="date">오후 04:20</span>
+				</div>
+
+				<div class="chart-item img-chart you">
+					<p class="name"><img src="./resource/imgs/img_thumb23.png" alt="">형욱이</p>
+					<p class="txt">
+						승아야 안녕~
+					</p>
+					<span class="date">오후 04:20 <em class="read-type">3</em></span>
+				</div>
+
+				<p class="invite-msg mid">김수현님이 <span>김나영</span>님을 초대했습니다. </p>
+
+				<div class="chart-item me">
+					<p class="txt">
+						우리 다음주 모임 장소랑 시간<br>
+						정해야될 거 같은데<br>
+						다들 언제 시간 괜찮아?
+					</p>
+					<span class="date"><em class="read-type">3</em> 오후 04:20</span>
+				</div>
+
+				<div class="here-read">
+					여기까지 읽으셨습니다.
+				</div>
+
+				<div class="chart-item img-chart you">
+					<p class="name"><img src="./resource/imgs/img_thumb45.png" alt="">김나영</p>
+					<p class="txt">
+						모두 반가워~
+					</p>
+					<span class="date">오후 04:45 <em class="read-type">3</em></span>
+				</div>
+
+				<p class="invite-msg mid"><span>고가온</span>님이 채팅방을 나갔습니다.</p>
+
+				<div class="chart-item img-chart you">
+					<p class="name"><img src="./resource/imgs/img_thumb44.png" alt="">김수현</p>
+					<p class="txt">
+						난 아무때나 좋아
+					</p>
+				</div>
+				<div class="chart-item img-chart you chain">
+					<p class="txt">
+						이번주 모임 갈거지?
+					</p>
+				</div>
+				<div class="chart-item img-chart you chain">
+					<p class="txt">
+						이번주 모임 갈거지?
+					</p>
+				</div>
+				<div class="chart-item img-chart you chain">
+					<p class="txt">
+						나도 사진 공유해줘~
+					</p>
+					<span class="date">오후 04:50</span>
+				</div>
+
+				<div class="chart-item img-chart you">
+					<p class="name"><img src="./resource/imgs/img_thumb46.png" alt="">임현주</p>
+					<p class="txt">
+						모두 오랜만이네 ^^
+					</p>
+				</div>
+			</div>
+			<p class="standby-txt img-type"><img src="./resource/imgs/img_thumb46.png" alt="">임현주 : 모두 오랜만이네 ^^</p>
+		</div>
+
+		<div class="msg-input-box">
+			<button type="button" class="add">add</button>
+			<span class="inputs">
+        <input type="text" placeholder="메시지를 입력하세요">
+        <button type="button" class="emoji">emoji</button>
+      </span>
+			<button type="button" class="send">send</button>
+		</div>
+	</div>
+	<!-- //채팅 - 절친모임 -->
+
+	<!-- 채팅 - 챗봇 스타벅스 -->
+	<div class="chart sb-chart" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				<a href="javascript:;" class="move-brandhome-sb">
+					<span class="thumb"><img src="./resource/imgs/img_thumb2.png" alt=""></span> <span class="name">Starbucks</span>
+				</a>
+			</p>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="srch">search</button>
+					</li>
+					<li>
+						<button type="button" class="call">call</button>
+					</li>
+					<li>
+						<button type="button" class="menu">menu</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="scroll-views">
+			<div class="charting">
+				<div class="chart-item you">
+					<p class="txt">
+						바로 쓸 수 있는 포인트 선물이<br>
+						도착했습니다
+					</p>
+					<div class="imgs">
+						<a href="http://www.istarbucks.co.kr/index.do"  class="link-starbucks" target="_blank"><img src="./resource/imgs/img_msg2.png" alt=""></a>
+					</div>
+					<span class="date">오후 04:22</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="chart-menus">
+			<ul>
+				<li>
+					<a href="" class="cm1">상담하기</a>
+				</li>
+				<li>
+					<a href="" class="cm2">고객센터</a>
+				</li>
+				<li>
+					<a href="javascript:;" class="cm3 move-brandhome-sb">브랜드홈</a>
+				</li>
+				<!--<li>-->
+				<!--<a href="" class="cm4">친구추가</a>-->
+				<!--</li>-->
+			</ul>
+		</div>
+	</div>
+	<!-- //채팅 - 챗봇 스타벅스 -->
+
+	<!-- 채팅 -  스타벅스 사이트 -->
+	<div class="chart site" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				<a href="javascript:;" class="move-brandhome-sb">
+					<span class="thumb"><img src="./resource/imgs/img_thumb2.png" alt=""></span> <span class="name">Starbucks</span>
+				</a>
+			</p>
+		</div>
+
+		<div class="scroll-views" style="top: 54px;">
+			<div class="site-cap">
+				<img src="./resource/imgs/img_starbucks-cap.png" alt="">
+			</div>
+		</div>
+
+	</div>
+	<!-- //채팅 - 스타벅스 사이트 -->
+
+	<!-- 채팅 - 챗봇 국민카드 -->
+	<div class="chart kb-chart" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				<a href="javascript:;" class="move-brandhome-kb">
+					<span class="thumb"><img src="./resource/imgs/img_thumb10.png" alt=""></span> <span class="name">KB국민카드</span>
+				</a>
+			</p>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="srch">search</button>
+					</li>
+					<li>
+						<button type="button" class="call">call</button>
+					</li>
+					<li>
+						<button type="button" class="menu">menu</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="scroll-views">
+			<div class="charting">
+				<div class="chart-item bot">
+					<p class="txt" style="width: 240px;">
+						고개님의 취향과 소비 패턴에 딱 맞는<br>
+						카드를 추천해 드리기 위해 간단하게<br>
+						몇 가지만 질문 드리겠습니다.
+					</p>
+					<p class="txt" style="width: 225px;">
+						고객님께선 카드를 선택할 때 무엇을
+						가장 중요하게 생각하시나요?
+					</p>
+					<span class="date">오후 04:22</span>
+					<div class="benefit-keyword ">
+						<ul>
+							<li><a href="javascript:;">혜택</a></li>
+							<li><a href="javascript:;" class="kb-keyword2">연회비</a></li>
+							<li><a href="javascript:;">디자인</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="chart-item me kb-hidden  kb-hidden1">
+					<p class="txt ">
+						연회비가 적은게 좋아요
+					</p>
+					<span class="date">오후 04:20</span>
+				</div>
+
+				<div class="chart-item bot">
+					<p class="txt kb-hidden kb-hidden2" style="width: 245px;">
+						혹시 생각해둔 카드가 있으신가요?<br>
+						어떤 카드든지 바로 안내해 드리겠습니다.
+					</p>
+					<span class="date kb-hidden kb-hidden2">오후 04:22</span>
+					<div class="benefit-cards kb-hidden kb-hidden3">
+						<div class="benefit-cards-scroll">
+							<ul>
+								<li><a href="javascript:;"><img src="./resource/imgs/img_kbcard1.png" alt="청춘대로카드"></a></li>
+								<li><a href="javascript:;"><img src="./resource/imgs/img_kbcard2.png" alt="다담카드"></a></li>
+								<li><a href="javascript:;"><img src="./resource/imgs/img_kbcard3.png" alt="골든라이프카드"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="chart-item me  kb-hidden kb-hidden4">
+					<p class="txt">
+						청춘대로카드
+					</p>
+					<span class="date">오후 04:24</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="msg-input-box">
+			<button type="button" class="add">add</button>
+			<span class="inputs">
+        <input type="text" placeholder="메시지를 입력하세요">
+        <button type="button" class="emoji">emoji</button>
+      </span>
+			<button type="button" class="send">send</button>
+		</div>
+	</div>
+	<!-- //채팅 - 챗봇 국민카드 -->
+
+	<!-- 채팅 - 챗봇 신한카드 -->
+	<div class="chart sh-chart" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				<a href="javascript:;" class="move-brandhome-sh">
+					<span class="thumb"><img src="./resource/imgs/img_thumb5.png" alt=""></span> <span class="name">신한카드</span>
+				</a>
+			</p>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="srch">search</button>
+					</li>
+					<li>
+						<button type="button" class="call">call</button>
+					</li>
+					<li>
+						<button type="button" class="menu">menu</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="scroll-views">
+			<div class="charting">
+				<div class="chart-item you">
+					<p class="txt">
+						(광고)신한카드 2월의 문화혜택 안내
+					</p>
+					<div class="msgs__scroll">
+						<ul>
+							<li><img src="./resource/imgs/img_msg4.png" alt=""></li>
+							<li><img src="./resource/imgs/img_msg5.png" alt=""></li>
+							<li><img src="./resource/imgs/img_msg6.png" alt=""></li>
+							<li><img src="./resource/imgs/img_msg8.png" alt=""></li>
+							<li><img src="./resource/imgs/img_msg9.png" alt=""></li>
+						</ul>
+					</div>
+
+					<span class="date">오후 04:22</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="chart-menus">
+			<ul>
+				<li>
+					<a href="" class="cm1">상담하기</a>
+				</li>
+				<li>
+					<a href="" class="cm2">고객센터</a>
+				</li>
+				<li>
+					<a href="javascript:;" class="cm3 move-brandhome-sh">브랜드홈</a>
+				</li>
+				<!--<li>-->
+				<!--<a href="" class="cm4">친구추가</a>-->
+				<!--</li>-->
+			</ul>
+		</div>
+	</div>
+	<!-- //채팅 - 챗봇 신한카드 -->
+
+	<!-- 채팅 - 챗봇 마켓컬리 이미지　-->
+	<div class="chart mk-chart1" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				<a href="javascript:;" class="move-brandhome-mk1">
+					<span class="thumb"><img src="./resource/imgs/img_thumb3.png" alt=""></span> <span class="name">마켓컬리</span>
+				</a>
+			</p>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="srch">search</button>
+					</li>
+					<li>
+						<button type="button" class="call">call</button>
+					</li>
+					<li>
+						<button type="button" class="menu">menu</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="scroll-views">
+			<div class="charting">
+				<div class="chart-item you">
+					<div class="imgs wide">
+						<img src="./resource/imgs/img_msg3.png" alt="">
+					</div>
+					<span class="date">오후 04:22</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="chart-menus">
+			<ul>
+				<li>
+					<a href="" class="cm1">상담하기</a>
+				</li>
+				<li>
+					<a href="" class="cm2">고객센터</a>
+				</li>
+				<li>
+					<a href="javascript:;" class="cm3 move-brandhome-mk1">브랜드홈</a>
+				</li>
+				<!--<li>-->
+				<!--<a href="" class="cm4">친구추가</a>-->
+				<!--</li>-->
+			</ul>
+		</div>
+	</div>
+	<!-- //채팅 - 챗봇 마켓컬리 이미지　-->
+
+	<!-- 채팅 - 챗봇 마켓컬리 텍스트　-->
+	<div class="chart mk-chart2" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				<span class="thumb"><img src="./resource/imgs/img_thumb3.png" alt=""></span> <span class="name">마켓컬리</span>
+			</p>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="srch">search</button>
+					</li>
+					<li>
+						<button type="button" class="call">call</button>
+					</li>
+					<li>
+						<button type="button" class="menu">menu</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="scroll-views">
+			<div class="charting">
+				<div class="chart-item you">
+					<div class="imgs ">
+						<img src="./resource/imgs/img_msg7.png" alt="">
+					</div>
+					<span class="date">오후 04:22</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="chart-menus">
+			<ul>
+				<li>
+					<a href="" class="cm1">상담하기</a>
+				</li>
+				<li>
+					<a href="" class="cm2">고객센터</a>
+				</li>
+				<li>
+					<a href="" class="cm3">브랜드홈</a>
+				</li>
+				<!--<li>-->
+				<!--<a href="" class="cm4">친구추가</a>-->
+				<!--</li>-->
+			</ul>
+		</div>
+	</div>
+	<!-- //채팅 - 챗봇 마켓컬리 텍스트 -->
+
+	<!-- 채팅 - 예약메시지 -->
+	<div class="chart reservation-chart" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				01012345678
+			</p>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="srch">search</button>
+					</li>
+					<li>
+						<button type="button" class="call">call</button>
+					</li>
+					<li>
+						<button type="button" class="menu">menu</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="scroll-views">
+			<div class="charting">
+				<div class="chart-item me">
+					<p class="txt">
+						어제 만나뵈었던 피크닉상사의<br>
+						백승아입니다<br>
+						어제 상담은 도움이 되셨나요?
+					</p>
+					<span class="date"><em class="read-type">1</em>오후 04:20</span>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="msg-input-box">
+			<button type="button" class="add">add</button>
+			<span class="inputs">
+        <input type="text" class="reservation-chart-input" placeholder="메시지를 입력하세요">
+        <button type="button" class="emoji">emoji</button>
+      </span>
+			<button type="button" class="send">send</button>
+		</div>
+	</div>
+	<!-- //채팅 - 예약메시지 -->
+
+	<!-- 채팅 - 새대화 상대 검색 -->
+	<div class="chart user-srch" style="display:block;">
+		<div class="top-forms white">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				새대화
+			</p>
+		</div>
+
+		<div class="scroll-views white b0">
+			<div class="phone-srch-inputs">
+				<input type="text" value="" class="first-input" id="first-input" placeholder="받는 사람(번호/이름 입력 또는 친구 선택)">
+				<ul class="choice" style="display:none;">
+					<li class="choice-item">01012345678</li>
+				</ul>
+				<button type="button" class="select-people">select-people</button>
+				<button type="button" class="add" style="display:none;">add</button>
+			</div>
+
+			<div class="welcome-msg" style="display:none;">
+				<button type="button" class="first-msg">첫인사를 사용해 보세요</button>
+				<button type="button" class="del">del</button>
+			</div>
+
+			<div class="popular-chartbot">
+				<strong class="tit">인기 추천 챗봇</strong>
+				<div class="popular-chartbot-scroll">
+					<ul>
+						<li>
+							<span class="thumb"><img src="./resource/imgs/img_thumb5.png" alt=""></span>
+							<em class="name">신한카드</em>
+							<span class="type">상담 챗봇</span>
+						</li>
+						<li>
+							<span class="thumb"><img src="./resource/imgs/img_thumb43.png" alt=""></span>
+							<em class="name">SSG닷컴</em>
+							<span class="type">배송 챗봇</span>
+						</li>
+						<li>
+							<span class="thumb"><img src="./resource/imgs/img_thumb16.png" alt=""></span>
+							<em class="name">아리따움</em>
+							<span class="type">주문 챗봇</span>
+						</li>
+						<li>
+							<span class="thumb"><img src="./resource/imgs/img_thumb17.png" alt=""></span>
+							<em class="name">샤넬</em>
+							<span class="type">상담 챗봇</span>
+						</li>
+						<li>
+							<span class="thumb"><img src="./resource/imgs/img_thumb18.png" alt=""></span>
+							<em class="name">LF몰</em>
+							<span class="type">상담 챗봇</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="friend-list fl1">
+				<div class="lists">
+					<div class="friend">
+						<div class="row-tit" ><strong>최근 대화한 친구</strong></div>
+						<ul class="friend-list-items">
+							<li>
+								<a href="">
+									<span class="thumb"><img src="./resource/imgs/img_thumb23.png" alt=""></span>
+									<div class="infos">
+										<span class="name new">형욱이</span>
+										<span class="summery">010-5678-7845</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span class="thumb"><img src="./resource/imgs/img_thumb24.png" alt=""></span>
+									<div class="infos">
+										<span class="name new">박제인</span>
+										<span class="summery">010-5678-7845</span>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<span class="thumb"><img src="./resource/imgs/img_thumb25.png" alt=""></span>
+									<div class="infos">
+										<span class="name">가으니</span>
+										<span class="summery">010-3951-6588</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--<div class="friend-list fl2" style="display:none;">-->
+			<!--<div class="lists">-->
+			<!--<div class="friend">-->
+			<!--<div class="row-tit" ><strong>친구 <em class="num">9</em></strong> </div>-->
+			<!--<ul class="friend-list-items">-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb26.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name new">김보경</span>-->
+			<!--<span class="summery"><em>0</em>10-5678-7845</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb24.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name new">금창원부장님</span>-->
+			<!--<span class="summery"><em>0</em>10-2678-6845</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb31.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name">공병훈과장님</span>-->
+			<!--<span class="summery"><em>0</em>10-3951-6588</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb32.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name">박소정</span>-->
+			<!--<span class="summery"><em>0</em>10-7852-1597</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb33.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name">박은비</span>-->
+			<!--<span class="summery"><em>0</em>10-3579-6547</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb34.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name">박세미</span>-->
+			<!--<span class="summery"><em>0</em>10-1591-7535</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb35.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name">박민주</span>-->
+			<!--<span class="summery"><em>0</em>10-1591-7535</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb36.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name">둘째고모부</span>-->
+			<!--<span class="summery"><em>0</em>10-3579-6547</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--<li>-->
+			<!--<a href="javascript:;">-->
+			<!--<span class="thumb"><img src="./resource/imgs/img_thumb37.png" alt=""></span>-->
+			<!--<div class="infos">-->
+			<!--<span class="name">공병훈과장님</span>-->
+			<!--<span class="summery"><em>0</em>10-1591-7535</span>-->
+			<!--</div>-->
+			<!--</a>-->
+			<!--</li>-->
+			<!--</ul>-->
+			<!--</div>-->
+			<!--</div>-->
+			<!--</div>-->
+		</div>
+		<div class="msg-input-box default-keypad" style="display:none;">
+			<button type="button" class="add">add</button>
+			<span class="inputs">
+        <input type="text" placeholder="메시지를 입력하세요">
+				<button type="button" class="emoji">emoji</button>
+      </span>
+			<button type="button" class="send">send</button>
+		</div>
+		<div class="msg-input-box newchart-keypad">
+			<button type="button" class="add">add</button>
+			<span class="inputs mutiple">
+				<em class="">어제 만나뵈었던 피크닉상사의<br>백승아입니다<br>어제 상담은 도움이 되셨나요?</em>
+        <input type="text" style="position:absolute;top:-9999px;left:-9999px;" placeholder="메시지를 입력하세요">
+				<!--<button type="button" class="emoji">emoji</button>-->
+      </span>
+			<button type="button" class="send">send</button>
+		</div>
+	</div>
+	<!-- //채팅 - 새대화 상대 검색 -->
+
+	<!-- 채팅 - welcome메시지 -->
+	<div class="chart" style="display:block;">
+		<div class="top-forms white">
+			<button type="button" class="back">back</button>
+			<p class="tit">
+				새대화
+			</p>
+		</div>
+
+		<div class="scroll-views white">
+			<div class="phone-srch-inputs">
+				<ul class="choice">
+					<li class="choice-item">01012345678</li>
+				</ul>
+				<button type="button" class="select-people">select-people</button>
+			</div>
+
+			<div class="welcome-msg">
+				<button type="button" class="first-msg">첫인사 보내기</button>
+				<button type="button" class="del">del</button>
+			</div>
+		</div>
+	</div>
+	<!-- //채팅 - welcome메시지 -->
+
+	<!-- 브랜드홈 - 스타벅스 -->
+	<div class="brandhome brandhome-sb" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back white">back</button>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="sns">sns</button>
+					</li>
+					<!--<li>-->
+					<!--<button type="button" class="opt">option</button>-->
+					<!--</li>-->
+				</ul>
+			</div>
+		</div>
+		<div class="brand-views">
+			<div class="default-box">
+				<div class="bgs mov"
+						 style="background:url('./resource/imgs/img_starbucks-thumb0.png') center center no-repeat;background-size:cover;">
+					<video class="video" style="display:none;">
+						<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="infos">
+					<span class="logo"><img src="./resource/imgs/img_thumb2.png" alt=""></span>
+					<p class="t1">Starbucks</p>
+					<p class="t2">02.3005.3535 스타벅스코리아</p>
+					<p class="t3">
+						스타벅스는 커피 이상의 특별한 경험을 소개합니다.<br>
+						일상을 풍요롭게 하는 제 3의 공간으로서 고객과 함께하며<br>
+						새로운 커피 문화를 정착시키고 있습니다.
+					</p>
+					<!--<button type="button" class="add">내 브랜드 추가</button>-->
+					<ul class="icons">
+						<li><a href="" class="i1">icon1</a></li>
+						<li><a href="" class="i2">icon2</a></li>
+						<li><a href="" class="i3">icon3</a></li>
+						<li><a href="" class="i4">icon4</a></li>
+					</ul>
+				</div>
+				<button type="button" class="chartbot">chartbot</button>
+			</div>
+			<div class="question">
+				<p><strong>챗봇</strong>에게 물어보세요</p>
+				<ul>
+					<li><a href="">가까운 매장찾기</a></li>
+					<li><a href="">주문취소 방법</a></li>
+					<li><a href="">이벤트 상품</a></li>
+					<li><a href="">멤버십 안내</a></li>
+					<li><a href="">서비스 소개</a></li>
+				</ul>
+			</div>
+			<div class="bh-tabs">
+				<ul>
+					<li><a href="" class="is-actived">홈</a></li>
+					<li><a href="">상품</a></li>
+					<li><a href="">쿠폰</a></li>
+					<li><a href="">소식</a></li>
+					<li><a href="">정보</a></li>
+				</ul>
+			</div>
+			<div class="bh-row1">
+				<div class="card">
+					<span class="thumb"><img src="./resource/imgs/img_starbucks-thumb1.png" alt=""></span>
+					<div class="txts">
+						<strong>스타벅스 개점 20주년 이벤트</strong>
+						<span>마이 스타벅스 회원들에게 등록된 카드로<br>결제 시, 1만원당 별 1개를 즉시 더 드립니다.</span>
+					</div>
+				</div>
+				<div class="like pick">
+					<button type="button"></button>
+					<em>25,369</em>
+				</div>
+			</div>
+			<div class="bh-row2">
+				<ul class="hashtag">
+					<li><a href="" class="bold">하이파이브데이</a></li>
+					<li><a href="">Holiday</a></li>
+					<li><a href="">시즌텀블러</a></li>
+					<li><a href="">케이크</a></li>
+					<li><a href="" class="bold">크리스마스시즌메뉴</a></li>
+					<li><a href="">홀리데이컬렉션</a></li>
+				</ul>
+				<div class="thumbs">
+					<a href=""><img src="./resource/imgs/img_starbucks-thumb2.png" alt=""></a>
+				</div>
+			</div>
+			<div class="bh-row3">
+				<p>
+					반짝반짝 겨울의 아름다움이 가득한<br>
+					<strong>Happy Holiday</strong>
+				</p>
+				<div class="hashtag-scroll">
+					<ul>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_starbucks-thumb3.png" alt=""></span>
+								<div class="hashtags">
+									#Holiday<br>
+									#크리스마스 선물
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_starbucks-thumb4.png" alt=""></span>
+								<div class="hashtags">
+									#스타벅스플래너<br>
+									#더블플래너이벤트
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_starbucks-thumb5.png" alt=""></span>
+								<div class="hashtags">
+									#선물하기<br>
+									#사이렌오더
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //브랜드홈 - 스타벅스 -->
+
+	<!-- 브랜드홈 - KB카드 -->
+	<div class="brandhome brandhome-kb" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back">back</button>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="sns dark">sns</button>
+					</li>
+					<!--<li>-->
+					<!--<button type="button" class="opt dark">option</button>-->
+					<!--</li>-->
+				</ul>
+			</div>
+		</div>
+		<div class="brand-views">
+			<div class="default-box">
+				<div class="bgs"
+				     style="background:url('./resource/imgs/img_kb-thumb0.png') center center no-repeat;background-size:cover;"></div>
+				<div class="infos type2">
+					<span class="logo"><img src="./resource/imgs/img_thumb40.png" alt=""></span>
+					<p class="t1">KB국민카드</p>
+					<p class="t2">1588-1688 KB국민카드</p>
+					<p class="t3">
+						KB국민카드는 국민 한 사람 한 사람의 라이프 스타일에<br>
+						맞는 현명한 생활의 방식을 창출하고 제안하여 국민 생활의<br>
+						힘이 되어줍니다.
+					</p>
+					<!--<button type="button" class="add">내 브랜드 추가</button>-->
+					<ul class="icons">
+						<li><a href="" class="i1">icon1</a></li>
+						<li><a href="" class="i2">icon2</a></li>
+						<li><a href="" class="i3">icon3</a></li>
+						<li><a href="" class="i4">icon4</a></li>
+					</ul>
+				</div>
+				<button type="button" class="chartbot">chartbot</button>
+			</div>
+			<div class="question">
+				<p><strong>챗봇</strong>에게 물어보세요</p>
+				<ul>
+					<li><a href="">가까운 매장찾기</a></li>
+					<li><a href="">주문취소 방법</a></li>
+					<li><a href="">이벤트 상품</a></li>
+					<li><a href="">멤버십 안내</a></li>
+					<li><a href="">서비스 소개</a></li>
+				</ul>
+			</div>
+			<div class="bh-tabs">
+				<ul>
+					<li><a href="" class="is-actived">홈</a></li>
+					<li><a href="">상품</a></li>
+					<li><a href="">쿠폰</a></li>
+					<li><a href="">소식</a></li>
+					<li><a href="">정보</a></li>
+				</ul>
+			</div>
+			<div class="bh-row1">
+				<div class="card">
+					<span class="thumb"><img src="./resource/imgs/img_kb-thumb1.png" alt=""></span>
+					<div class="txts">
+						<strong>나는 5만원, 친구는 연회비 캐시백</strong>
+						<span>친구, 지인에게 kb국민카드를 추천하고,<br>추천인과 친구에게 캐시백을 선물합니다.</span>
+					</div>
+				</div>
+				<div class="like pick">
+					<button type="button"></button>
+					<em>25,369</em>
+				</div>
+			</div>
+			<div class="bh-row2">
+				<ul class="hashtag">
+					<li><a href="" class="bold">청춘대로톡톡카드</a></li>
+					<li><a href="">프리미엄카드</a></li>
+					<li><a href="">청구할인</a></li>
+					<li><a href="">KB국민카드</a></li>
+					<li><a href="" class="bold">스타샵적립</a></li>
+					<li><a href="">리브메이트</a></li>
+				</ul>
+				<div class="thumbs">
+					<a href=""><img src="./resource/imgs/img_kb-thumb2.png" alt=""></a>
+				</div>
+			</div>
+			<div class="bh-row3">
+				<p>
+					청춘부터 골드라이프까지!<br>
+					<strong>라이프 사이클별 kb국민 대표카드</strong>
+				</p>
+				<div class="hashtag-scroll">
+					<ul>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_kb-thumb3.png" alt=""></span>
+								<div class="hashtags">
+									#청춘대로카드<br>
+									#청춘맞춤형 할인카드
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_kb-thumb4.png" alt=""></span>
+								<div class="hashtags">
+									#다담카드(스마트 otp)<br>
+									#모두의 이야기를 담은 카드
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_kb-thumb5.png" alt=""></span>
+								<div class="hashtags">
+									#골든라이프올림카드<br>
+									#더욱 든든해진 혜택
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //브랜드홈 - KB카드 -->
+
+	<!-- 브랜드홈 - 신한은행 -->
+	<div class="brandhome brandhome-sh" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back white">back</button>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="sns ">sns</button>
+					</li>
+					<!--<li>-->
+					<!--<button type="button" class="opt ">option</button>-->
+					<!--</li>-->
+				</ul>
+			</div>
+		</div>
+		<div class="brand-views">
+			<div class="default-box">
+				<div class="bgs mov"
+				     style="background:url('./resource/imgs/img_sh-thumb0.png') center center no-repeat;background-size:cover;">
+					<video class="video" style="display:none;">
+						<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="infos">
+					<span class="logo"><img src="./resource/imgs/img_thumb41.png" alt=""></span>
+					<p class="t1">신한은행</p>
+					<p class="t2">1599-8000  신한은행</p>
+					<p class="t3">
+						미래를 함께하는 따뜻한 금융, 신한은행 입니다.<br>
+						창조적 금융을 통해 고객에게 더 큰 가치를 제공하며<br>
+						사랑받는 1등 은행으로 나아갑니다.
+					</p>
+					<!--<button type="button" class="add">내 브랜드 추가</button>-->
+					<ul class="icons">
+						<li><a href="" class="i1">icon1</a></li>
+						<li><a href="" class="i2">icon2</a></li>
+						<li><a href="" class="i3">icon3</a></li>
+						<li><a href="" class="i4">icon4</a></li>
+					</ul>
+				</div>
+				<button type="button" class="chartbot">chartbot</button>
+			</div>
+			<div class="question">
+				<p><strong>챗봇</strong>에게 물어보세요</p>
+				<ul>
+					<li><a href="">가까운 매장찾기</a></li>
+					<li><a href="">주문취소 방법</a></li>
+					<li><a href="">이벤트 상품</a></li>
+					<li><a href="">멤버십 안내</a></li>
+					<li><a href="">서비스 소개</a></li>
+				</ul>
+			</div>
+			<div class="bh-tabs">
+				<ul>
+					<li><a href="" class="is-actived">홈</a></li>
+					<li><a href="">상품</a></li>
+					<li><a href="">쿠폰</a></li>
+					<li><a href="">소식</a></li>
+					<li><a href="">정보</a></li>
+				</ul>
+			</div>
+			<div class="bh-row1">
+				<div class="card">
+					<span class="thumb"><img src="./resource/imgs/img_sh-thumb1.png" alt=""></span>
+					<div class="txts">
+						<strong>신한 첫거래 세배드림(DREAM) 적금</strong>
+						<span>신한은행과 소중한 첫 인연!<br>첫거래 상품 가입하면 이자 세배!</span>
+					</div>
+				</div>
+				<div class="like pick">
+					<button type="button"></button>
+					<em>25,369</em>
+				</div>
+			</div>
+			<div class="bh-row2">
+				<ul class="hashtag">
+					<li><a href="" class="bold">두배드림적금</a></li>
+					<li><a href="">예금</a></li>
+					<li><a href="">직장인대출</a></li>
+					<li><a href="">펀드</a></li>
+					<li><a href="" class="bold">주택청약종합저축</a></li>
+					<li><a href="">목돈굴리기</a></li>
+				</ul>
+				<div class="thumbs">
+					<a href=""><img src="./resource/imgs/img_sh-thumb2.png" alt=""></a>
+				</div>
+			</div>
+			<div class="bh-row3">
+				<p>
+					고객의 꿈을 신한과 함께<br>
+					<strong>SOL SOL한 이벤트</strong>
+				</p>
+				<div class="hashtag-scroll">
+					<ul>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_sh-thumb3.png" alt=""></span>
+								<div class="hashtags">
+									#응원하라<br>
+									#워너원통장이벤트
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_sh-thumb4.png" alt=""></span>
+								<div class="hashtags">
+									#새해<br>
+									#두배드림
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_sh-thumb5.png" alt=""></span>
+								<div class="hashtags">
+									#추천하기<br>
+									#KBO적금
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //브랜드홈 - 신한은행 -->
+
+	<!-- 브랜드홈 - 마켓컬리 -->
+	<div class="brandhome brandhome-mk" style="display:block;">
+		<div class="top-forms">
+			<button type="button" class="back white">back</button>
+			<div class="utils">
+				<ul>
+					<li>
+						<button type="button" class="sns ">sns</button>
+					</li>
+					<!--<li>-->
+					<!--<button type="button" class="opt ">option</button>-->
+					<!--</li>-->
+				</ul>
+			</div>
+		</div>
+		<div class="brand-views">
+			<div class="default-box">
+				<div class="bgs mov"
+				     style="background:url('./resource/imgs/img_kurly-thumb0.png') center center no-repeat;background-size:cover;">
+					<video class="video" style="display:none;">
+						<source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="infos">
+					<span class="logo"><img src="./resource/imgs/img_thumb42.png" alt=""></span>
+					<p class="t1">마켓컬리</p>
+					<p class="t2">02.3005.3535  마켓컬리</p>
+					<p class="t3">
+						싱싱한 채소. 과일도 정성으로 만든 반찬. 디저트도<br>
+						신선한 온도를 지키는 포장, 배송으로<br>
+						다음 날이면 우리집 문 앞에!
+					</p>
+					<!--<button type="button" class="add">내 브랜드 추가</button>-->
+					<ul class="icons">
+						<li><a href="" class="i1">icon1</a></li>
+						<li><a href="" class="i2">icon2</a></li>
+						<li><a href="" class="i3">icon3</a></li>
+						<li><a href="" class="i4">icon4</a></li>
+					</ul>
+				</div>
+				<button type="button" class="chartbot">chartbot</button>
+			</div>
+			<div class="question">
+				<p><strong>챗봇</strong>에게 물어보세요</p>
+				<ul>
+					<li><a href="">가까운 매장찾기</a></li>
+					<li><a href="">주문취소 방법</a></li>
+					<li><a href="">이벤트 상품</a></li>
+					<li><a href="">멤버십 안내</a></li>
+					<li><a href="">서비스 소개</a></li>
+				</ul>
+			</div>
+			<div class="bh-tabs">
+				<ul>
+					<li><a href="" class="is-actived">홈</a></li>
+					<li><a href="">상품</a></li>
+					<li><a href="">쿠폰</a></li>
+					<li><a href="">소식</a></li>
+					<li><a href="">정보</a></li>
+				</ul>
+			</div>
+			<div class="bh-row1">
+				<div class="card">
+					<span class="thumb"><img src="./resource/imgs/img_kurly-thumb1.png" alt=""></span>
+					<div class="txts">
+						<strong>컬리 러버스는?</strong>
+						<span>누구보다 컬리를 아껴주시는 고객님들게 더 많은<br> 사랑을 돌려 드리고자, 매월 결제 금액에 따라 ...</span>
+					</div>
+				</div>
+				<div class="like pick">
+					<button type="button"></button>
+					<em>5,369</em>
+				</div>
+			</div>
+			<div class="bh-row2">
+				<ul class="hashtag">
+					<li><a href="" class="bold">새벽배송</a></li>
+					<li><a href="">마켓컬리 배송</a></li>
+					<li><a href="">내일의 장보기</a></li>
+					<li><a href="">친구초대</a></li>
+					<li><a href="" class="bold">참여 이벤트</a></li>
+					<li><a href="">샛별배송</a></li>
+					<li><a href="">전지현</a></li>
+				</ul>
+				<div class="thumbs">
+					<a href=""><img src="./resource/imgs/img_kurly-thumb2.png" alt=""></a>
+				</div>
+			</div>
+			<div class="bh-row3">
+				<p>
+					<strong>전 상품 20%할인 & GIFT</strong><br>
+					독일 친환경 세제 프로쉬 EVENT
+				</p>
+				<div class="hashtag-scroll">
+					<ul>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_kurly-thumb3.png" alt=""></span>
+								<div class="hashtags">
+									#독일 친환경 주방세제 5종<br>
+									#천연성분
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_kurly-thumb4.png" alt=""></span>
+								<div class="hashtags">
+									#섬유유연제 2종<br>
+									#미세먼지고민
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<span class="thumb"><img src="./resource/imgs/img_kurly-thumb5.png" alt=""></span>
+								<div class="hashtags">
+									#화장실 세제 2종<br>
+									#페이스오일
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //브랜드홈 - 마켓컬리 -->
+
+	<!-- 브랜드홈 - 챗봇레이어 -->
+	<div class="chartbot-dims" style="display:none;">
+		<div class="chartbot-list">
+			<ul>
+				<!--<li>-->
+				<!--<a href="" class="cb1">-->
+				<!--<strong>스타벅스 챗봇</strong>-->
+				<!--지금 바로 대화해보세요!-->
+				<!--</a>-->
+				<!--</li>-->
+				<li>
+					<a href="" class="cb1">
+						<strong>주문 챗봇</strong>
+						'안녕', '주문' 입력하고 주문을 시작해보세요
+					</a>
+				</li>
+				<li>
+					<a href="" class="cb1">
+						<strong>상담 챗봇</strong>
+						지금 바로 대화해보세요!
+					</a>
+				</li>
+			</ul>
+			<button type="button" class="chartbot-close">close</button>
+		</div>
+	</div>
+	<!-- //브랜드홈 - 챗봇레이어 -->
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/malihu-custom-scrollbar-plugin@3.1.5/jquery.mCustomScrollbar.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
+<script src="./resource/js/rcs.ui.min.js"></script>
+<script>
+	function numberWithCommas(x) {
+		var str = x + '';
+		return str.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	}
+
+	function removeComma(str) {
+		n = parseInt(str.replace(/,/g, ""));
+		return n;
+	}
+
+	// function numberWithbars(x) {
+	// 	var str = x + '';
+	// 	return str.replace(/\B(?=(\d{4})+(?!\d))/g, "-");
+	// }
+
+	function numberWithbars(num) {
+		var len, point, str;
+
+		num = num + "";
+		point = num.length % 4;
+		len = num.length;
+
+		str = num.substring(0, point);
+		while (point < len) {
+			if (str != "") {
+				str += "-";
+			}
+			str += num.substring(point, point + 4);
+			point += 4;
+		}
+
+		return str;
+
+	}
+
+	$.each($(".benepick-main .slide-in"), function (index, value) {
+				var tsmin;
+				tsmin = $(this).find('.hit-number').text();
+				tsmin = removeComma(tsmin);
+				var vari = setInterval(function () {
+					var hasT = $(value).data('t');
+					if (hasT) {
+						clearTimeout(hasT);
+					}
+
+					value.dataset.t = setTimeout(function () {
+						$(value).find('.benepick-hit').removeClass('active');
+					}, 1200);
+
+					$(value).find('.hit-number').text(numberWithCommas(tsmin++));
+					$(value).find('.benepick-hit').addClass('active');
+
+				}, Math.round(Math.random() * (3000 - 500)) + 500);
+			});
+
+	$.each($(".live-pick-all .slide-in"), function (index, value) {
+		var tsmin;
+		tsmin = $(this).find('.hit-number').text();
+		tsmin = removeComma(tsmin);
+		var vari = setInterval(function () {
+			var hasT = $(value).data('t');
+			if (hasT) {
+				clearTimeout(hasT);
+			}
+
+			value.dataset.t = setTimeout(function () {
+				$(value).find('.benepick-hit').removeClass('active');
+			}, 1200);
+
+			$(value).find('.hit-number').text(numberWithCommas(tsmin++));
+			$(value).find('.benepick-hit').addClass('active');
+
+		}, Math.round(Math.random() * (3000 - 500)) + 500);
+	});
+
+	var options = {
+		data: [
+			{
+				"phone": "01056787845",
+				"thumb": "./resource/imgs/img_thumb26.png",
+				"name": "김보경"
+			},
+			{
+				"phone": "01026786845",
+				"thumb": "./resource/imgs/img_thumb24.png",
+				"name": "금창원부장님"
+			},
+			{
+				"phone": "01039516588",
+				"thumb": "./resource/imgs/img_thumb31.png",
+				"name": "공병훈과장님"
+			},
+			{
+				"phone": "01078521597",
+				"thumb": "./resource/imgs/img_thumb32.png",
+				"name": "박소정"
+			},
+			{
+				"phone": "01035776547",
+				"thumb": "./resource/imgs/img_thumb33.png",
+				"name": "박은비"
+			},
+			{
+				"phone": "01025918535",
+				"thumb": "./resource/imgs/img_thumb34.png",
+				"name": "박세미"
+			},
+			{
+				"phone": "01015917535",
+				"thumb": "./resource/imgs/img_thumb35.png",
+				"name": "박민주"
+			},
+			{
+				"phone": "01035796547",
+				"thumb": "./resource/imgs/img_thumb36.png",
+				"name": "둘째고모부"
+			},
+			{
+				"phone": "01012345678",
+				"thumb": "./resource/imgs/img_thumb8.png",
+				"name": ""
+			}
+		],
+		getValue: "phone",
+		template: {
+			type: "custom",
+			method: function (value, item) {
+				return "<a href='javascript:;'>"
+						+ "<span class='thumb'><img src='" + item.thumb + "'alt=''></span>"
+						+ "<div class='infos'>"
+						+ "<span class='name'>" + item.name + "</span>"
+						+ "<span class='summery'>" + value + "</span>"
+						+ "</div>"
+						+ "</a>";
+			}
+		},
+		list: {
+			match: {
+				enabled: true
+			},
+			onSelectItemEvent: function () {
+				var value = $("#first-input").getSelectedItemData().phone;
+
+				console.log(value);
+			},
+			onShowListEvent: function () {
+				console.log("onShowListEvent !");
+				$('.row-tit').remove();
+				$('.easy-autocomplete-container').prepend(
+						"<div class='row-tit'><strong>친구 <em class='num'>" + $('.easy-autocomplete-container li').length + "</em></strong> </div>");
+				// $('.easy-autocomplete-container li').each(function(){
+				// 	$(this).find('.summery').text(numberWithbars($(this).find('.summery').text()));
+				// });
+
+			},
+			onHideListEvent: function () {
+				console.log("onHideListEvent !")
+				$('.row-tit').remove();
+			},
+			onLoadEvent: function () {
+				console.log("onLoadEvent !");
+				if($('.easy-autocomplete-container li').length < 2){
+					$('.easy-autocomplete-container').addClass('solo');
+				}else{
+					$('.easy-autocomplete-container').removeClass('solo');
+				}
+			},
+			onClickEvent: function () {
+				console.log("onClickEvent !");
+				$('.phone-srch-inputs .add').hide();
+				$('.phone-srch-inputs .select-people').show();
+				$('.phone-srch-inputs .first-input').hide();
+				$('.default-keypad').show();
+				$('.default-keypad input[type=text]').focus();
+				$('.phone-srch-inputs .choice, .welcome-msg').show();
+			},
+			onChooseEvent: function () {
+				console.log("onChooseEvent !")
+			}
+		},
+	};
+
+	// $("#first-input").on("keyUp", function (e) {
+	// 	$(this).val().replace(/\-/g,'');
+	// });
+	$("#first-input").easyAutocomplete(options);
+
+  $(function(){
+		$.each($(".slide-in"), function (index, value) {
+			var $canvas = $(this).find('canvas');
+			$canvas.addClass('canvas' + index);
+			$canvas.spriteAnimate({
+				frameWidth: 600,
+				frameHeight: 600,
+				numberOfFrames: 31,
+				imgSrc: "./resource/imgs/allgif4.png",
+				fps: 30,
+				loop: false,
+				debug: false,
+				onFinish: function () {
+				}
+			});
+			$canvas.spriteAnimate('play');
+
+			var $hit = $(this).find('.hit-bt');
+			$hit.addClass('hit' + index);
+			$(document).on('click', '.hit' + index, function (e) {
+				$('.toast').fadeIn().delay(800).fadeOut();
+				$(this).prop('disabled', 'disabled');
+				$(this).find('canvas').show();
+				$canvas.spriteAnimate('restart');
+			});
+		});
+
+  });
+</script>
+</body>
+</html>
