@@ -933,6 +933,29 @@ var RCSUI = (function () {
       $('.newchart-keypad').removeClass('is-showed');
     });
 
+    $('.site').on("click", function (e) {
+      $('.site').removeClass('open');
+
+      $('.first-input').val('');
+      $('.kb-hidden1, .kb-hidden2, .kb-hidden3, .kb-hidden4').hide();
+      $('html, body, .scroll-views').animate({scrollTop: 0}, 0);
+      $('.standby-txt').show();
+
+      // $('.link-chart1').addClass('opend');
+
+      $('.lists__item').each(function () {
+        if ($(this).hasClass('is-expand')) {
+          $(this).removeClass('is-expand').addClass('long');
+          $(this).find('.lists__expand').hide().removeClass('is-actived');
+          $(this).find('.lists__summery, .lists__tits .ico').show();
+          $(this).find('.lists__in-content, .lists__mypick, .lists__mypick2').hide();
+        }
+      });
+
+      $('.welcome-msg').show();
+      $('.newchart-keypad').removeClass('is-showed');
+    });
+
     $('.brandhome .back').on("click",function(e) {
       $('.brandhome').removeClass('notransform open');
 
