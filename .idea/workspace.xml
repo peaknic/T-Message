@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b335007-56e2-4636-8d86-53b3c9ecb378" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_bak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/css/rcs.ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/resource/css/rcs.ui.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/css/rcs.ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resource/css/rcs.ui.min.css" afterDir="false" />
     </list>
@@ -19,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resource/css/rcs.ui.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="4507" column="1" lean-forward="true" selection-start-line="4507" selection-start-column="1" selection-end-line="4507" selection-end-column="1" />
+            <state relative-caret-position="1022">
+              <caret line="4963" column="1" lean-forward="true" selection-start-line="4936" selection-end-line="4963" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1432">
-              <caret line="2457" column="14" lean-forward="true" selection-start-line="2457" selection-start-column="14" selection-end-line="2457" selection-end-column="14" />
+            <state relative-caret-position="242">
+              <caret line="1398" column="25" lean-forward="true" selection-start-line="1398" selection-start-column="25" selection-end-line="1398" selection-end-column="25" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" />
@@ -2082,8 +2079,8 @@
       <find>.chart .mix-bubble .txts</find>
       <find>mix-bubble2</find>
       <find>.mix-bubble2 .txts p</find>
-      <find>msgs__mixed</find>
       <find>.chart .charting .chart-item .imgs.wide</find>
+      <find>msgs__mixed</find>
     </findStrings>
     <replaceStrings>
       <replace>이용방법</replace>
@@ -2191,12 +2188,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551765193597</updated>
       <workItem from="1551765194975" duration="447000" />
-      <workItem from="1551765766594" duration="8565000" />
+      <workItem from="1551765766594" duration="9247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9012000" />
+    <option name="totallyTimeSpent" value="9694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1216" height="1906" extended-state="6" />
@@ -3251,17 +3248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/css/rcs.ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="4507" column="1" lean-forward="true" selection-start-line="4507" selection-start-column="1" selection-end-line="4507" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1432">
-          <caret line="2457" column="14" lean-forward="true" selection-start-line="2457" selection-start-column="14" selection-end-line="2457" selection-end-column="14" />
+        <state relative-caret-position="242">
+          <caret line="1398" column="25" lean-forward="true" selection-start-line="1398" selection-start-column="25" selection-end-line="1398" selection-end-column="25" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" />
@@ -4270,6 +4260,13 @@
             <element signature="e#110820#110827#0" />
             <element signature="e#110998#111166#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/css/rcs.ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1022">
+          <caret line="4963" column="1" lean-forward="true" selection-start-line="4936" selection-end-line="4963" selection-end-column="1" />
         </state>
       </provider>
     </entry>
