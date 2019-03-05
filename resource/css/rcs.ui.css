@@ -4907,11 +4907,13 @@ button.swiper-pagination-bullet {
     vertical-align: top;
     color:#717171;
     width:40px;
+    font-size:11px;
 }
 
 .mix-bubble .txts dd{
     display:inline-block;
     vertical-align: top;
+    font-size:11px;
 }
 
 .mix-bubble .bts{
