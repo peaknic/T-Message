@@ -4617,6 +4617,7 @@ button.swiper-pagination-bullet {
     box-sizing: border-box;
     margin-right: 3px;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .chart .charting .benefit-cards .benefit-cards-scroll li:last-child {
@@ -4626,9 +4627,17 @@ button.swiper-pagination-bullet {
 .chart .charting .benefit-cards .benefit-cards-scroll li a {
     display: block;
 }
-
 .chart .charting .benefit-cards .benefit-cards-scroll li img {
     width: 100%;
+}
+
+.chart .charting .benefit-cards .benefit-cards-scroll li span {
+    display: block;
+    height: 38px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 13px;
+    background: #fff;
 }
 
 .chart .msgs__scroll {
