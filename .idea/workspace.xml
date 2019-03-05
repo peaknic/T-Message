@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b335007-56e2-4636-8d86-53b3c9ecb378" name="Default Changelist" comment="">
+    <list default="true" id="2b335007-56e2-4636-8d86-53b3c9ecb378" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/css/rcs.ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/resource/css/rcs.ui.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/css/rcs.ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resource/css/rcs.ui.min.css" afterDir="false" />
     </list>
@@ -18,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resource/css/rcs.ui.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="4634" column="21" lean-forward="true" selection-start-line="4634" selection-start-column="21" selection-end-line="4634" selection-end-column="21" />
+            <state relative-caret-position="589">
+              <caret line="5024" column="18" lean-forward="true" selection-end-line="6474" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="2312" column="14" lean-forward="true" selection-start-line="2312" selection-start-column="14" selection-end-line="2316" selection-end-column="19" />
+            <state relative-caret-position="355">
+              <caret line="2315" column="27" lean-forward="true" selection-start-line="2315" selection-start-column="27" selection-end-line="2315" selection-end-column="27" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" />
@@ -2107,7 +2106,7 @@
       <updated>1551765193597</updated>
       <workItem from="1551765194975" duration="447000" />
       <workItem from="1551765766594" duration="9247000" />
-      <workItem from="1551780648530" duration="1170000" />
+      <workItem from="1551780648530" duration="2140000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1551781048179</created>
@@ -2116,11 +2115,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551781048179</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1551781827230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551781827230</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1551782166964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551782166964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10864000" />
+    <option name="totallyTimeSpent" value="11834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -3139,17 +3152,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/css/rcs.ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="4634" column="21" lean-forward="true" selection-start-line="4634" selection-start-column="21" selection-end-line="4634" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="2312" column="14" lean-forward="true" selection-start-line="2312" selection-start-column="14" selection-end-line="2316" selection-end-column="19" />
+        <state relative-caret-position="355">
+          <caret line="2315" column="27" lean-forward="true" selection-start-line="2315" selection-start-column="27" selection-end-line="2315" selection-end-column="27" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" />
@@ -4109,6 +4115,13 @@
             <element signature="n#a#0;n#li#1;n#ul#0;n#div#0;n#div#22;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#9;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/css/rcs.ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="5024" column="18" lean-forward="true" selection-end-line="6474" />
         </state>
       </provider>
     </entry>
