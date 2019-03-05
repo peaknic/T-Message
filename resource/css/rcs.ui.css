@@ -4870,6 +4870,148 @@ button.swiper-pagination-bullet {
     border-top: 0;
 }
 
+.mix-bubble{
+    border-radius:15px;
+    overflow:hidden;
+}
+.mix-bubble .thumb{
+    font-size:0;
+}
+
+.mix-bubble .thumb img{
+    width:100%;
+}
+
+.mix-bubble .txts{
+    background:#fff;
+    padding:15px;
+}
+
+.mix-bubble .txts strong{
+    display:block;
+    font-size:15px;
+    font-weight:normal;
+    font-family: 'Yoon 765';
+    margin-bottom:5px;
+}
+
+.mix-bubble .txts dl{
+    line-height:100%;
+    padding:4px 0;
+    font-size:11px;
+}
+
+.mix-bubble .txts dt{
+    display:inline-block;
+    vertical-align: top;
+    color:#717171;
+    width:40px;
+}
+
+.mix-bubble .txts dd{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.mix-bubble .bts{
+    background:#fff;
+}
+
+.mix-bubble .bts a{
+    border-top:1px solid #ccc;
+    display:block;
+    height:38px;
+    line-height:38px;
+    text-align:center;
+    font-size:12px;
+    color:#308db6;
+    font-family: 'Yoon 765';
+}
+
+.mix-bubble2{
+    position:relative;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.mix-bubble2 .thumb{
+    display:block;
+    width:134px;
+}
+
+.mix-bubble2 .thumb img{
+    width:100%;
+}
+
+.mix-bubble2 .infos{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:134px;
+    background:#fff;
+}
+.mix-bubble2 .txts{
+    padding:15px 15px 0 15px;
+}
+.mix-bubble2 .txts strong{
+    display:block;
+    font-size:15px;
+    font-weight:normal;
+    font-family: 'Yoon 765';
+    margin-bottom:5px;
+}
+
+.mix-bubble2 .txts button{
+    position:relative;
+    font-size:12px;
+    color:#666666;
+    width:100%;
+    height: 28px;
+    line-height: 28px;
+}
+
+.mix-bubble2 .txts button:before{
+    content:'';
+    display:inline-block;
+    vertical-align: top;
+    position:relative;
+    top:8px;
+    margin-right:5px;
+    width:12px;
+    height:12px;
+    background:url("../../resource/imgs/ico_arrow2.png") center center no-repeat;
+    background-size:12px 12px;
+}
+
+.mix-bubble2 .txts p{
+    font-size:13px;
+    line-height:150%;
+}
+
+.mix-bubble2 .txts p span{
+    font-family: 'Yoon 765';
+    color:#00b4ab;
+}
+
+.mix-bubble2 .bts{
+    background:#fff;
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+}
+
+.mix-bubble2 .bts a{
+    border-top:1px solid #ccc;
+    display:block;
+    height:38px;
+    line-height:38px;
+    text-align:center;
+    font-size:12px;
+    color:#308db6;
+    font-family: 'Yoon 765';
+}
+
 .site {
     position: fixed;
     top: 0;
@@ -4899,6 +5041,12 @@ button.swiper-pagination-bullet {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
     transform: translateX(0);
+}
+.site .top-forms .tit .name{
+    color:#000;
+}
+.site .scroll-views{
+    bottom: 0px;
 }
 
 .site .scroll-views .site-cap {
