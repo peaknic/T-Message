@@ -906,7 +906,7 @@ var RCSUI = (function () {
 
     $('.link-starbucks').on("click",function(e) {
       e.preventDefault();
-      $('.site').addClass('open');
+      $('.site.sb').addClass('open');
       return false;
     });
     $('.link-kurly').on("click", function (e) {
