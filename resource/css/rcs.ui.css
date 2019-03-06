@@ -2453,6 +2453,11 @@ button.swiper-pagination-bullet {
     background-size: 8px 15px;
 }
 
+.top-forms .back.v2 {
+    background: url("../../resource/imgs/ico_close4.png") center center no-repeat;
+    background-size: 15px 15px;
+}
+
 .top-forms .inputs {
     margin: 6px 20px 0 54px;
     height: 34px;
@@ -2488,7 +2493,7 @@ button.swiper-pagination-bullet {
     display: inline-block;
     width: 30px;
     height: 30px;
-    margin: 7px 5px 0 0;
+    margin: 8px 5px 0 0;
     vertical-align: top;
 }
 
@@ -2512,6 +2517,26 @@ button.swiper-pagination-bullet {
     position: absolute;
     top: -2px;
     left: -6px;
+}
+
+.top-forms .tit.link-tit {
+    margin: 0 54px 0 54px;
+    line-height: 100%;
+}
+
+.top-forms .tit.link-tit span {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Yoon 765';
+    padding-top: 11px;
+}
+
+.top-forms .tit.link-tit em {
+    display: block;
+    font-size: 9px;
+    opacity: .5;
+    color: #000;
 }
 
 .top-forms .utils {
