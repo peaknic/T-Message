@@ -4928,6 +4928,10 @@ button.swiper-pagination-bullet {
     font-size:10px;
 }
 
+.mix-bubble .txts p {
+    font-size: 11px;
+}
+
 .mix-bubble .bts{
     background:#fff;
 }
