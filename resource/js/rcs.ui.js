@@ -859,13 +859,43 @@ var RCSUI = (function () {
         $('.msg-list, .benepicks').hide();
         $('.friend-list').show();
         $('.recom-tab-items li').eq(0).find('a').click();
+
+        $("body").mCustomScrollbar({
+          scrollInertia: 800,
+          mouseWheel: {scrollAmount: 800},
+          callbacks: {
+            whileScrolling: function () {
+              if (this.mcs.draggerTop >= 200) {
+                $('.header, .quick').addClass('scrolling');
+              } else {
+                $('.header, .quick').removeClass('scrolling');
+              }
+            }
+          }
+        });
       } else if (index === 1) {
         $('.friend-list, .benepicks').hide();
         $('.msg-list').show();
         $('.recom-tab-items li').eq(0).find('a').click();
+
+        $("body").mCustomScrollbar({
+          scrollInertia: 800,
+          mouseWheel: {scrollAmount: 800},
+          callbacks: {
+            whileScrolling: function () {
+              if (this.mcs.draggerTop >= 200) {
+                $('.header, .quick').addClass('scrolling');
+              } else {
+                $('.header, .quick').removeClass('scrolling');
+              }
+            }
+          }
+        });
       } else if (index === 2) {
         $('.friend-list, .msg-list').hide();
         $('.benepicks').show();
+
+        $("body").mCustomScrollbar("destroy");
 
         $('.benepick-main .benepick-slider').slick({
           mobileFirst: true,
