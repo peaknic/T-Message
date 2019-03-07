@@ -3634,7 +3634,7 @@
       },
       onShowListEvent: function () {
         console.log("onShowListEvent !");
-        $('.row-tit').remove();
+        $('.chart.user-srch .row-tit').remove();
         $('.easy-autocomplete-container').prepend(
             "<div class='row-tit'><strong>친구 <em class='num'>" + $('.easy-autocomplete-container li').length + "</em></strong> </div>");
         // $('.easy-autocomplete-container li').each(function(){
@@ -3644,7 +3644,7 @@
       },
       onHideListEvent: function () {
         console.log("onHideListEvent !")
-        $('.row-tit').remove();
+        $('.chart.user-srch .row-tit').remove();
       },
       onLoadEvent: function () {
         console.log("onLoadEvent !");

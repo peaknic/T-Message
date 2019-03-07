@@ -2823,7 +2823,7 @@ button.swiper-pagination-bullet {
     left: 0;
     right: 0;
     box-sizing: border-box;
-  height: 45px;
+  height: 51px;
     border-top: 1px solid #e9e9eb;
     background: #fff;
     font-size: 0;
@@ -2836,8 +2836,8 @@ button.swiper-pagination-bullet {
 
 .chart-menus a {
     display: block;
-  height: 45px;
-  line-height: 45px;
+  height: 51px;
+  line-height: 51px;
     text-align: center;
     font-size: 12px;
     font-family: 'Yoon 765';
