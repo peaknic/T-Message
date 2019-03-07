@@ -2634,6 +2634,7 @@ button.swiper-pagination-bullet {
     right: 0;
     height: 50px;
     border-top: 1px solid #e9e9eb;
+    background: #fff;
 }
 
 .msg-input-box.newchart-keypad {
@@ -4795,13 +4796,11 @@ button.swiper-pagination-bullet {
     margin-left: -90px;
     box-sizing: border-box;
     text-align: center;
-    width: 180px;
 }
 
 .chart .welcome-msg .first-msg {
     font-size: 14px;
     color: #fff;
-    width: 180px;
     height: 25px;
     line-height: 25px;
     border-radius: 25px;
@@ -4809,6 +4808,7 @@ button.swiper-pagination-bullet {
     text-align: left;
     margin: 0 auto;
     padding-left: 13px;
+    padding-right: 30px;
     box-sizing: border-box;
 }
 
@@ -5230,6 +5230,10 @@ button.swiper-pagination-bullet {
     font-size: 15px;
     font-family: 'Yoon 765';
     margin-top: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
 }
 
 .live-picks .benepick-slider .swiper-slide-item .txts span {
