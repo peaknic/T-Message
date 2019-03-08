@@ -906,24 +906,24 @@ var RCSUI = (function () {
 
     $('.link-starbucks').on("click",function(e) {
       e.preventDefault();
-      $('.site.sb').addClass('open');
+      // $('.site.sb').addClass('open');
       return false;
     });
     $('.link-kurly').on("click", function (e) {
       e.preventDefault();
-      $('.site.mk').addClass('open');
+      // $('.site.mk').addClass('open');
       return false;
     });
 
     $('.link-chi').on("click", function (e) {
       e.preventDefault();
-      $('.site.cc').addClass('open');
+      // $('.site.cc').addClass('open');
       return false;
     });
 
     $('.link-sb').on("click", function (e) {
       e.preventDefault();
-      $('.site.sh').addClass('open');
+      // $('.site.sh').addClass('open');
       return false;
     });
     //닫기

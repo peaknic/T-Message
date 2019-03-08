@@ -4032,12 +4032,9 @@ button.swiper-pagination-bullet {
     border-radius: 20px;
     overflow: hidden;
     box-sizing: border-box;
-    border: 1px solid #d2d2d2;
-    text-align: center;
-    font-size: 9px;
-    background: #fff;
-    color: #666;
-    font-family: 'Yoon 765';
+    font-size: 0;
+    background: url("../../resource/imgs/ico_nums.png") center center no-repeat;
+    background-size: 20px 20px;
 }
 
 .mypicks .mypick-lists .inner img {
