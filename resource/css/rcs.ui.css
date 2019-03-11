@@ -4772,18 +4772,30 @@ button.swiper-pagination-bullet {
 }
 
 .chart .phone-srch-inputs .choice .choice-item {
+    position: relative;
     display: inline-block;
     font-size: 14px;
-    color: #00b98d;
+    color: #008cbf;
     background: #f5f5f5;
     font-family: 'Yoon 765';
     height: 25px;
     line-height: 25px;
     border-radius: 25px;
     text-align: center;
-    padding: 0 13px;
+    padding: 0 15px;
     position: relative;
     top: 5px;
+}
+
+.chart .phone-srch-inputs .choice .choice-item:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background: #10a0d4;
 }
 
 .chart .welcome-msg {
